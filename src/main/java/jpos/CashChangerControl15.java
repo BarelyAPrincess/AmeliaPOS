@@ -1,0 +1,44 @@
+package jpos;
+
+import jpos.events.DataListener;
+
+public abstract interface CashChangerControl15 extends CashChangerControl14
+{
+	public abstract boolean getCapDeposit() throws JposException;
+
+	public abstract boolean getCapDepositDataEvent() throws JposException;
+
+	public abstract boolean getCapPauseDeposit() throws JposException;
+
+	public abstract boolean getCapRepayDeposit() throws JposException;
+
+	public abstract int getDataCount() throws JposException;
+
+	public abstract boolean getDataEventEnabled() throws JposException;
+
+	public abstract void setDataEventEnabled( boolean paramBoolean ) throws JposException;
+
+	public abstract int getDepositAmount() throws JposException;
+
+	public abstract String getDepositCashList() throws JposException;
+
+	public abstract String getDepositCodeList() throws JposException;
+
+	public abstract String getDepositCounts() throws JposException;
+
+	public abstract int getDepositStatus() throws JposException;
+
+	public abstract void beginDeposit() throws JposException;
+
+	public abstract void clearInput() throws JposException;
+
+	public abstract void endDeposit( int paramInt ) throws JposException;
+
+	public abstract void fixDeposit() throws JposException;
+
+	public abstract void pauseDeposit( int paramInt ) throws JposException;
+
+	public abstract void addDataListener( DataListener paramDataListener );
+
+	public abstract void removeDataListener( DataListener paramDataListener );
+}

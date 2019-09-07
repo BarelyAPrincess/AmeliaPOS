@@ -1,0 +1,6 @@
+rootProject.name = 'AmeliaPOS'
+
+include ':AmeliaCommonLib', ':AmeliaAppLib'
+
+project( ':AmeliaCommonLib' ).projectDir = new File( 'modules/AmeliaCommonLib' )
+project( ':AmeliaAppLib' ).projectDir = new File( 'modules/AmeliaAppLib' )

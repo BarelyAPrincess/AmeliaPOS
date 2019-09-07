@@ -1,0 +1,41 @@
+import java.text.SimpleDateFormat
+
+plugins {
+	id 'java'
+	id 'application'
+	id 'idea'
+	id "com.github.johnrengelman.shadow" version "5.1.0"
+}
+
+defaultTasks 'clean', 'build'
+
+group 'io.amelia.pos'
+version '1.0'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+	jcenter()
+}
+
+dependencies {
+	testCompile group: 'junit', name: 'junit', version: '4.12'
+
+	compile group: 'io.netty', name: 'netty-all', version: '4.1.39.Final'
+
+	compile fileTree( include: ['*.jar'], dir: 'libs' )
+}
+
+mainClassName = "io.amelia.pos.drawer.Step2Main"
+
+jar {
+	manifest {
+		attributes 'Implementation-Title': 'Amelia POS'
+		attributes 'Implementation-Version': version
+		attributes 'Implementation-Vendor': 'Miss Amelia Sara'
+		attributes 'Implementation-Vendor-Id': 'me@missameliasara.com'
+		attributes 'Main-Class': mainClassName
+	}
+}
