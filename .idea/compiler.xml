@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="AmeliaPOS.AmeliaLibCommon.main" target="1.8" />
       <module name="AmeliaPOS.AmeliaLibCommon.test" target="1.8" />
+      <module name="AmeliaPOS.AmeliaLogLib.main" target="1.8" />
+      <module name="AmeliaPOS.AmeliaLogLib.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

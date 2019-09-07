@@ -31,11 +31,11 @@ publishing {
 					resolveStrategy = Closure.DELEGATE_FIRST
 					name project.name
 					description description
-					url 'https://github.com/BarelyAPrincess/HoneyPotServer'
+					url 'https://github.com/BarelyAPrincess/AmeliaPOS'
 					scm {
-						url 'https://github.com/BarelyAPrincess/HoneyPotServer'
-						connection 'scm:git:ssh:git@github.com:BarelyAPrincess/HoneyPotServer.git'
-						developerConnection 'scm:git:ssh:git@github.com:BarelyAPrincess/HoneyPotServer.git'
+						url 'https://github.com/BarelyAPrincess/AmeliaPOS'
+						connection 'scm:git:ssh:git@github.com:BarelyAPrincess/AmeliaPOS.git'
+						developerConnection 'scm:git:ssh:git@github.com:BarelyAPrincess/AmeliaPOS.git'
 					}
 					licenses {
 						license {
@@ -47,8 +47,8 @@ publishing {
 					developers {
 						developer {
 							id 'BarelyAPrincess'
-							name 'Amelia DeWitt'
-							email 'me@ameliadewitt.com'
+							name 'Amelia Sara (Mille)'
+							email 'me@missameliasara.com'
 						}
 					}
 				}
@@ -68,11 +68,11 @@ publishing {
 					// url depends on version
 					if ( System.getenv( "releaseBuild" ) != null )
 					{
-						url = 'http://jenkins.ameliadewitt.com:8081/artifactory/releases/'
+						url = 'http://jenkins.penoaks.com/artifactory/releases/'
 					}
 					else
 					{
-						url = 'http://jenkins.ameliadewitt.com:8081/artifactory/snapshots/'
+						url = 'http://jenkins.penoaks.com/artifactory/snapshots/'
 					}
 				}
 			}

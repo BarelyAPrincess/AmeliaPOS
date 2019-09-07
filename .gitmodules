@@ -6,3 +6,7 @@
 	path = modules/AmeliaCommonLib
 	url = git@github.com:BarelyAPrincess/AmeliaLib.git
 	branch = common
+[submodule "AmeliaLogLib"]
+	path = modules/AmeliaLogLib
+	url = git@github.com:BarelyAPrincess/AmeliaLib.git
+	branch = log

@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/modules/AmeliaAppLib" />
             <option value="$PROJECT_DIR$/modules/AmeliaCommonLib" />
+            <option value="$PROJECT_DIR$/modules/AmeliaLogLib" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

@@ -1,7 +1,32 @@
 package io.amelia.pos.server;
 
+import io.amelia.foundation.ConfigLoader;
+import io.amelia.foundation.ConfigRegistry;
+import io.amelia.foundation.Foundation;
+import io.amelia.foundation.FoundationCrashException;
+import io.amelia.foundation.Hook;
+import io.amelia.foundation.Kernel;
+import io.amelia.lang.ConfigException;
+import io.amelia.lang.StartupInterruptException;
+import io.amelia.support.EnumColor;
+import io.amelia.support.Priority;
+
 public class EntryPoint
 {
+	@Hook( hookClass = Foundation.class, hookAction = Foundation.HOOK_ACTION_PARSE, priority = Priority.NORMAL )
+	public static void loadAppConfig()
+	{
+		try
+		{
+			ConfigRegistry.LOADER.beginConfig();
+			ConfigRegistry.LOADER.commitConfig( ConfigLoader.CommitType.INITIAL );
+		}
+		catch ( ConfigException.Error error )
+		{
+			error.printStackTrace();
+		}
+	}
+
 	public static void main( String[] args ) throws Exception
 	{
 		try
@@ -27,7 +52,7 @@ public class EntryPoint
 			Foundation.prepare();
 
 			// Load up Network UDP Driver
-			final UDPWorker udp = NetworkLoader.UDP();
+			/* final UDPWorker udp = NetworkLoader.UDP();
 
 			Events.getInstance().listen( app, RunlevelEvent.class, ( event ) -> {
 				// Start the Networking
@@ -43,7 +68,7 @@ public class EntryPoint
 				}
 
 				if ( !udp.isStarted() )
-					throw new StartupException( "The UDP service failed to start for unknown reasons." );*/
+					throw new StartupException( "The UDP service failed to start for unknown reasons." );/
 				}
 
 				// Make sure I'm the only process with my instanceId running
@@ -59,6 +84,8 @@ public class EntryPoint
 					}
 				}
 			} );
+
+			*/
 
 			/* Tell the Kernel to start the startup sequence */
 			Foundation.start();
