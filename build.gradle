@@ -122,12 +122,12 @@ dependencies {
 	compile project( ':AmeliaCommonLib' )
 	compile project( ':AmeliaAppLib' )
 	compile project( ':AmeliaLogLib' )
+	compile project( ':AmeliaNetworkingLib' )
 
 	/*compile project( ':AmeliaScriptingLib' )
 	compile project( ':AmeliaStorageLib' )
 	compile project( ':AmeliaPluginsLib' )
 	compile project( ':AmeliaLogLib' )
-	compile project( ':AmeliaNetworkingLib' )
 	compile project( ':AmeliaUsersLib' )*/
 
 	compile group: 'net.sf.jopt-simple', name: 'jopt-simple', version: '4.7'

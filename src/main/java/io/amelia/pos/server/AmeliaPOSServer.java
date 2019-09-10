@@ -20,6 +20,10 @@ import io.amelia.lang.ParcelException;
 import io.amelia.logcompat.DefaultLogFormatter;
 import io.amelia.logcompat.LogBuilder;
 import io.amelia.looper.LooperRouter;
+import io.amelia.net.Networking;
+import io.amelia.net.tcp.TCPService;
+import io.amelia.net.web.WebService;
+import io.amelia.net.wip.NetworkLoader;
 import io.amelia.support.EnumColor;
 import io.amelia.support.IO;
 import io.amelia.support.Streams;
@@ -101,10 +105,6 @@ public class AmeliaPOSServer extends DefaultApplication implements NetworkedAppl
 				throwStartupException( e );
 			}
 
-			// TODO Install or factory reset option?
-
-			// TODO Extract Web UI archive to webroot.
-
 			if ( Sys.isUnixLikeOS() )
 			{
 				SignalHandler signalHandler = signal -> Foundation.shutdown( "Received SIGTERM - Terminate" );
@@ -128,7 +128,7 @@ public class AmeliaPOSServer extends DefaultApplication implements NetworkedAppl
 		}
 		if ( currentRunlevel == NETWORKING )
 		{
-			// NetworkLoader.init();
+			Networking.startNetworkService( new TCPService() );
 		}
 	}
 

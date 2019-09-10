@@ -10,3 +10,7 @@
 	path = modules/AmeliaLogLib
 	url = git@github.com:BarelyAPrincess/AmeliaLib.git
 	branch = log
+[submodule "AmeliaNetworkingLib"]
+	path = modules/AmeliaNetworkingLib
+	url = git@github.com:BarelyAPrincess/AmeliaLib.git
+	branch = networking
