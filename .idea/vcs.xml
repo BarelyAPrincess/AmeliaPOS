@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/modules/AmeliaAppLib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/modules/AmeliaCommonLib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/modules/AmeliaLogLib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/modules/AmeliaNetworkingLib" vcs="Git" />
   </component>
 </project>

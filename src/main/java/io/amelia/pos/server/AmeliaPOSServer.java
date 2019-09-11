@@ -2,11 +2,9 @@ package io.amelia.pos.server;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.URI;
 import java.util.logging.Level;
 
 import io.amelia.data.parcel.ParcelCarrier;
-import io.amelia.foundation.ConfigRegistry;
 import io.amelia.foundation.DefaultApplication;
 import io.amelia.foundation.Env;
 import io.amelia.foundation.Foundation;
@@ -19,20 +17,17 @@ import io.amelia.lang.ApplicationException;
 import io.amelia.lang.ParcelException;
 import io.amelia.logcompat.DefaultLogFormatter;
 import io.amelia.logcompat.LogBuilder;
-import io.amelia.looper.LooperRouter;
 import io.amelia.net.Networking;
 import io.amelia.net.tcp.TCPService;
-import io.amelia.net.web.WebService;
-import io.amelia.net.wip.NetworkLoader;
 import io.amelia.support.EnumColor;
 import io.amelia.support.IO;
-import io.amelia.support.Streams;
 import io.amelia.support.Sys;
-import io.amelia.users.Users;
 import sun.misc.Signal;
 import sun.misc.SignalHandler;
 
-import static io.amelia.foundation.Runlevel.*;
+import static io.amelia.foundation.Runlevel.INITIALIZATION;
+import static io.amelia.foundation.Runlevel.NETWORKING;
+import static io.amelia.foundation.Runlevel.SHUTDOWN;
 
 public class AmeliaPOSServer extends DefaultApplication implements NetworkedApplication
 {
