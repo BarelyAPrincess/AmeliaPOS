@@ -1,0 +1,163 @@
+[main      ] 09-18 00:04:50.917 [SEVERE] [SysErr] [JposServiceLoader]Custom manager is defined: className= jpos.loader.simple.SimpleServiceManager
+[main      ] 09-18 00:04:51.035 [SEVERE] [SysErr] [XercesRegPopulator]load(): isPopulatorFileDefined=true
+[main      ] 09-18 00:04:51.039 [SEVERE] [SysErr] [AbstractRegPopulator]getPopulatorFileIS(): populatorFileName=/opt/EpsonJavaPOS/jpos.xml
+[main      ] 09-18 00:04:51.041 [SEVERE] [SysErr] [XercesRegPopulator]Error loading XML file.  Exception.msg = /opt/EpsonJavaPOS/jpos.xml (No such file or directory)
+[main      ] 09-18 00:04:51.043 [SEVERE] [SysErr] [JposServiceLoader]manager.getEntryRegistry().load() OK
+[main      ] 09-18 00:04:51.044 [SEVERE] [SysErr] [JposServiceLoader]findService: POSPrinter
+[main      ] 09-18 00:04:51.046 [SEVERE] [SysErr] [SimpleServiceManager]createConnection: JposException.msg=Service does not exist in loaded JCL registry
+[main      ] 09-18 00:04:51.048 [SEVERE] [Kernel] Failed to claim POSPrinter. Printer commands will be disabled.
+jpos.JposException: Service does not exist in loaded JCL registry
+	at jpos.loader.simple.SimpleServiceManager.createConnection(SimpleServiceManager.java:126)
+	at jpos.loader.JposServiceLoader.findService(JposServiceLoader.java:36)
+	at jpos.BaseJposControl.open(BaseJposControl.java:369)
+	at io.amelia.pos.server.AmeliaPOSServer.onRunlevelChange(AmeliaPOSServer.java:152)
+	at io.amelia.foundation.Foundation.onRunlevelChange(Foundation.java:696)
+	at io.amelia.foundation.Foundation.setRunlevel0(Foundation.java:980)
+	at io.amelia.foundation.Foundation.setRunlevel(Foundation.java:945)
+	at io.amelia.foundation.Foundation.setRunlevel(Foundation.java:931)
+	at io.amelia.foundation.Foundation.start(Foundation.java:1048)
+	at io.amelia.pos.server.EntryPoint.main(EntryPoint.java:106)
+[main      ] 09-18 00:04:51.051 [SEVERE] [SysErr] [JposServiceLoader]findService: CashDrawer
+[main      ] 09-18 00:04:51.053 [SEVERE] [SysErr] [SimpleServiceManager]createConnection: JposException.msg=Service does not exist in loaded JCL registry
+[main      ] 09-18 00:04:51.055 [SEVERE] [Kernel] Failed to claim CashDrawer. Drawer commands will be disabled.
+jpos.JposException: Service does not exist in loaded JCL registry
+	at jpos.loader.simple.SimpleServiceManager.createConnection(SimpleServiceManager.java:126)
+	at jpos.loader.JposServiceLoader.findService(JposServiceLoader.java:36)
+	at jpos.BaseJposControl.open(BaseJposControl.java:369)
+	at io.amelia.pos.server.AmeliaPOSServer.onRunlevelChange(AmeliaPOSServer.java:163)
+	at io.amelia.foundation.Foundation.onRunlevelChange(Foundation.java:696)
+	at io.amelia.foundation.Foundation.setRunlevel0(Foundation.java:980)
+	at io.amelia.foundation.Foundation.setRunlevel(Foundation.java:945)
+	at io.amelia.foundation.Foundation.setRunlevel(Foundation.java:931)
+	at io.amelia.foundation.Foundation.start(Foundation.java:1048)
+	at io.amelia.pos.server.EntryPoint.main(EntryPoint.java:106)
+[main      ] 09-18 00:04:51.059 [INFO] [Foundation] Initializing Console
+[main      ] 09-18 00:04:51.092 [WARNING] Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+[main      ] 09-18 00:04:51.308 [CONFIG] [Kernel] Connecting to RabbitMQ Server
+[main      ] 09-18 00:04:51.423 [INFO] [Kernel] Create queue amq.gen--3-n1mEQTuweGFC9obcfAQ
+[main      ] 09-18 00:04:51.456 [INFO] [Foundation] Application has entered runlevel "STARTUP". onRunlevelChange() took 547ms!
+[main      ] 09-18 00:04:51.457 [FINE] [Kernel] joinLoop()
+[main      ] 09-18 00:04:51.461 [INFO] [Foundation] Application has entered runlevel "MAINLOOP". onRunlevelChange() took 2ms!
+[main      ] 09-18 00:04:51.508 [INFO] [Foundation] Application has entered runlevel "NETWORKING". onRunlevelChange() took 0ms!
+[main      ] 09-18 00:04:51.562 [INFO] [Foundation] Application has started! Startup took a total of 4998ms!
+[main      ] 09-18 00:04:51.564 [INFO] [Foundation] Application has entered runlevel "STARTED". onRunlevelChange() took 6ms!
+[po..read-4] 09-18 00:05:17.541 [INFO] [Kernel]  [x] Received Payload '{"cmd":"open","uuid":"1896ed0f-13c6-4038-be8a-0f958784c036"}'
+[po..read-4] 09-18 00:05:17.664 [INFO] [Kernel] Keys: {cmd=open, uuid=1896ed0f-13c6-4038-be8a-0f958784c036}
+[po..read-4] 09-18 00:05:17.667 [SEVERE] [SysErr] io.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[po..read-4] 09-18 00:05:17.669 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:297)
+[po..read-4] 09-18 00:05:17.670 [SEVERE] [SysErr] 	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[po..read-4] 09-18 00:05:17.671 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:297)
+[po..read-4] 09-18 00:05:17.673 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[po..read-4] 09-18 00:05:17.675 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[po..read-4] 09-18 00:05:17.676 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[po..read-4] 09-18 00:05:17.677 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[po..read-4] 09-18 00:05:17.678 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[po..read-4] 09-18 00:05:17.679 [SEVERE] [SysErr] 	at java.lang.Thread.run(Thread.java:748)
+[po..read-5] 09-18 00:19:55.231 [INFO] [Kernel]  [x] Received Payload '{"cmd":"open","uuid":"1896ed0f-13c6-4038-be8a-0f958784c036"}'
+[po..read-5] 09-18 00:19:55.236 [INFO] [Kernel] Keys: {cmd=open, uuid=1896ed0f-13c6-4038-be8a-0f958784c036}
+[po..read-5] 09-18 00:19:55.238 [SEVERE] [SysErr] io.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[po..read-5] 09-18 00:19:55.239 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:297)
+[po..read-5] 09-18 00:19:55.240 [SEVERE] [SysErr] 	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[po..read-5] 09-18 00:19:55.241 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:297)
+[po..read-5] 09-18 00:19:55.243 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[po..read-5] 09-18 00:19:55.243 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[po..read-5] 09-18 00:19:55.244 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[po..read-5] 09-18 00:19:55.245 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[po..read-5] 09-18 00:19:55.249 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[po..read-5] 09-18 00:19:55.252 [SEVERE] [SysErr] 	at java.lang.Thread.run(Thread.java:748)
+[po..read-6] 09-18 00:23:33.440 [INFO] [Kernel]  [x] Received Payload '{"cmd":"receipt","uuid":"1896ed0f-13c6-4038-be8a-0f958784c036"}'
+[po..read-6] 09-18 00:23:33.445 [INFO] [Kernel] Keys: {cmd=receipt, uuid=1896ed0f-13c6-4038-be8a-0f958784c036}
+[po..read-6] 09-18 00:23:33.446 [SEVERE] [SysErr] io.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[po..read-6] 09-18 00:23:33.448 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:297)
+[po..read-6] 09-18 00:23:33.449 [SEVERE] [SysErr] 	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[po..read-6] 09-18 00:23:33.451 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:297)
+[po..read-6] 09-18 00:23:33.452 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[po..read-6] 09-18 00:23:33.453 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[po..read-6] 09-18 00:23:33.455 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[po..read-6] 09-18 00:23:33.456 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[po..read-6] 09-18 00:23:33.457 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[po..read-6] 09-18 00:23:33.458 [SEVERE] [SysErr] 	at java.lang.Thread.run(Thread.java:748)
+[po..read-7] 09-18 00:24:11.305 [INFO] [Kernel]  [x] Received Payload '{"cmd":"open","uuid":"1896ed0f-13c6-4038-be8a-0f958784c036"}'
+[po..read-7] 09-18 00:24:11.310 [INFO] [Kernel] Keys: {cmd=open, uuid=1896ed0f-13c6-4038-be8a-0f958784c036}
+[po..read-7] 09-18 00:24:11.312 [SEVERE] [SysErr] io.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[po..read-7] 09-18 00:24:11.313 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:297)
+[po..read-7] 09-18 00:24:11.315 [SEVERE] [SysErr] 	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[po..read-7] 09-18 00:24:11.316 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:297)
+[po..read-7] 09-18 00:24:11.317 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[po..read-7] 09-18 00:24:11.318 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[po..read-7] 09-18 00:24:11.318 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[po..read-7] 09-18 00:24:11.319 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[po..read-7] 09-18 00:24:11.320 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[po..read-7] 09-18 00:24:11.321 [SEVERE] [SysErr] 	at java.lang.Thread.run(Thread.java:748)
+[po..read-8] 09-18 00:34:57.863 [INFO] [Kernel]  [x] Received Payload '{"cmd":"open","uuid":"1896ed0f-13c6-4038-be8a-0f958784c036"}'
+[po..read-8] 09-18 00:34:57.868 [INFO] [Kernel] Keys: {cmd=open, uuid=1896ed0f-13c6-4038-be8a-0f958784c036}
+[po..read-8] 09-18 00:34:57.869 [SEVERE] [SysErr] io.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[po..read-8] 09-18 00:34:57.870 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:297)
+[po..read-8] 09-18 00:34:57.872 [SEVERE] [SysErr] 	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[po..read-8] 09-18 00:34:57.873 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:297)
+[po..read-8] 09-18 00:34:57.874 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[po..read-8] 09-18 00:34:57.875 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[po..read-8] 09-18 00:34:57.876 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[po..read-8] 09-18 00:34:57.877 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[po..read-8] 09-18 00:34:57.877 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[po..read-8] 09-18 00:34:57.878 [SEVERE] [SysErr] 	at java.lang.Thread.run(Thread.java:748)
+[po..read-9] 09-18 01:15:35.870 [INFO] [Kernel]  [x] Received Payload '{"badge":"1","badgeName":"Amelia Greene","badgeId":"ad092G"}'
+[po..read-9] 09-18 01:15:35.877 [INFO] [Kernel] Keys: {badge=1, badgeName=Amelia Greene, badgeId=ad092G}
+[po..read-9] 09-18 01:15:35.878 [SEVERE] [SysErr] io.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[po..read-9] 09-18 01:15:35.879 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:297)
+[po..read-9] 09-18 01:15:35.880 [SEVERE] [SysErr] 	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[po..read-9] 09-18 01:15:35.881 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:297)
+[po..read-9] 09-18 01:15:35.882 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[po..read-9] 09-18 01:15:35.883 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[po..read-9] 09-18 01:15:35.884 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[po..read-9] 09-18 01:15:35.885 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[po..read-9] 09-18 01:15:35.886 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[po..read-9] 09-18 01:15:35.887 [SEVERE] [SysErr] 	at java.lang.Thread.run(Thread.java:748)
+[po..ead-10] 09-18 01:16:04.329 [INFO] [Kernel]  [x] Received Payload '{"badge":"1","uuid":"1896ed0f-13c6-4038-be8a-0f958784c036","badgeName":"Amelia Greene","badgeId":"ad092G"}'
+[po..ead-10] 09-18 01:16:04.332 [INFO] [Kernel] Keys: {badge=1, uuid=1896ed0f-13c6-4038-be8a-0f958784c036, badgeName=Amelia Greene, badgeId=ad092G}
+[po..ead-10] 09-18 01:16:04.334 [SEVERE] [SysErr] io.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[po..ead-10] 09-18 01:16:04.336 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:297)
+[po..ead-10] 09-18 01:16:04.336 [SEVERE] [SysErr] 	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[po..ead-10] 09-18 01:16:04.337 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:297)
+[po..ead-10] 09-18 01:16:04.338 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[po..ead-10] 09-18 01:16:04.339 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[po..ead-10] 09-18 01:16:04.340 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[po..ead-10] 09-18 01:16:04.341 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[po..ead-10] 09-18 01:16:04.342 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[po..ead-10] 09-18 01:16:04.343 [SEVERE] [SysErr] 	at java.lang.Thread.run(Thread.java:748)
+[po..ead-11] 09-18 01:22:49.229 [INFO] [Kernel]  [x] Received Payload '{"badge":"1","uuid":"1896ed0f-13c6-4038-be8a-0f958784c036","badgeName":"Amelia Greene","badgeId":"ag092G"}'
+[po..ead-11] 09-18 01:22:49.231 [INFO] [Kernel] Keys: {badge=1, uuid=1896ed0f-13c6-4038-be8a-0f958784c036, badgeName=Amelia Greene, badgeId=ag092G}
+[po..ead-11] 09-18 01:22:49.233 [SEVERE] [SysErr] io.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[po..ead-11] 09-18 01:22:49.235 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:297)
+[po..ead-11] 09-18 01:22:49.236 [SEVERE] [SysErr] 	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[po..ead-11] 09-18 01:22:49.237 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:297)
+[po..ead-11] 09-18 01:22:49.238 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[po..ead-11] 09-18 01:22:49.239 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[po..ead-11] 09-18 01:22:49.240 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[po..ead-11] 09-18 01:22:49.241 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[po..ead-11] 09-18 01:22:49.242 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[po..ead-11] 09-18 01:22:49.243 [SEVERE] [SysErr] 	at java.lang.Thread.run(Thread.java:748)
+[po..ead-12] 09-18 01:24:00.089 [INFO] [Kernel]  [x] Received Payload '{"badge":"1","uuid":"1896ed0f-13c6-4038-be8a-0f958784c036","name":"Amelia Greene","badgeId":"ag092G"}'
+[po..ead-12] 09-18 01:24:00.091 [INFO] [Kernel] Keys: {badge=1, uuid=1896ed0f-13c6-4038-be8a-0f958784c036, name=Amelia Greene, badgeId=ag092G}
+[po..ead-12] 09-18 01:24:00.092 [SEVERE] [SysErr] io.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[po..ead-12] 09-18 01:24:00.093 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:297)
+[po..ead-12] 09-18 01:24:00.094 [SEVERE] [SysErr] 	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[po..ead-12] 09-18 01:24:00.095 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:297)
+[po..ead-12] 09-18 01:24:00.096 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[po..ead-12] 09-18 01:24:00.097 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[po..ead-12] 09-18 01:24:00.097 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[po..ead-12] 09-18 01:24:00.098 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[po..ead-12] 09-18 01:24:00.099 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[po..ead-12] 09-18 01:24:00.100 [SEVERE] [SysErr] 	at java.lang.Thread.run(Thread.java:748)
+[po..ead-13] 09-18 01:29:19.083 [INFO] [Kernel]  [x] Received Payload '{"badge":"1","uuid":"1896ed0f-13c6-4038-be8a-0f958784c036","badgeName":"Amelia Greene","badgeId":"ag092G"}'
+[po..ead-13] 09-18 01:29:19.088 [INFO] [Kernel] Keys: {badge=1, uuid=1896ed0f-13c6-4038-be8a-0f958784c036, badgeName=Amelia Greene, badgeId=ag092G}
+[po..ead-13] 09-18 01:29:19.089 [SEVERE] [SysErr] io.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[po..ead-13] 09-18 01:29:19.090 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:297)
+[po..ead-13] 09-18 01:29:19.091 [SEVERE] [SysErr] 	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[po..ead-13] 09-18 01:29:19.091 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:297)
+[po..ead-13] 09-18 01:29:19.092 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[po..ead-13] 09-18 01:29:19.093 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[po..ead-13] 09-18 01:29:19.094 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[po..ead-13] 09-18 01:29:19.095 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[po..ead-13] 09-18 01:29:19.095 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[po..ead-13] 09-18 01:29:19.096 [SEVERE] [SysErr] 	at java.lang.Thread.run(Thread.java:748)

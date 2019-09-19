@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.17">
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/lang/PacketDecodeException.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/lang/PacketEncodeException.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/ByteBufEncryptCodec.java">
+<error line="18" column="8" severity="info" message="Unused import - io.amelia.net.wip.NetworkLoader." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/NetworkService.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/Networking.java">
+<error line="46" column="20" severity="warning" message="Method type parameter name &apos;Service&apos; must match pattern &apos;^[A-Z]$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodTypeParameterNameCheck"/>
+<error line="81" column="22" severity="warning" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="83" column="22" severity="warning" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="84" column="22" severity="warning" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="85" column="22" severity="warning" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="86" column="22" severity="warning" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="87" column="22" severity="warning" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="88" column="22" severity="warning" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="89" column="22" severity="warning" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="90" column="22" severity="warning" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="91" column="22" severity="warning" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="93" column="22" severity="warning" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="94" column="22" severity="warning" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/PacketPayload.java">
+<error line="35" column="42" severity="warning" message="Parameter name &apos;p_150790_0_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="72" column="34" severity="warning" message="Parameter name &apos;p_bytesBefore_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="78" column="33" severity="warning" message="Parameter name &apos;p_bytesBefore_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="78" column="56" severity="warning" message="Parameter name &apos;p_bytesBefore_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="84" column="33" severity="warning" message="Parameter name &apos;p_bytesBefore_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="84" column="55" severity="warning" message="Parameter name &apos;p_bytesBefore_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="84" column="78" severity="warning" message="Parameter name &apos;p_bytesBefore_3_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="96" column="34" severity="warning" message="Parameter name &apos;p_capacity_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="108" column="35" severity="warning" message="Parameter name &apos;p_compareTo_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="120" column="30" severity="warning" message="Parameter name &apos;p_copy_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="120" column="45" severity="warning" message="Parameter name &apos;p_copy_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="144" column="40" severity="warning" message="Parameter name &apos;p_ensureWritable_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="150" column="36" severity="warning" message="Parameter name &apos;p_ensureWritable_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="150" column="65" severity="warning" message="Parameter name &apos;p_ensureWritable_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="155" column="35" severity="warning" message="Parameter name &apos;p_equals_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="185" column="36" severity="warning" message="Parameter name &apos;p_getBoolean_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="191" column="30" severity="warning" message="Parameter name &apos;p_getByte_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="197" column="34" severity="warning" message="Parameter name &apos;p_getBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="197" column="57" severity="warning" message="Parameter name &apos;p_getBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="203" column="34" severity="warning" message="Parameter name &apos;p_getBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="203" column="57" severity="warning" message="Parameter name &apos;p_getBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="203" column="76" severity="warning" message="Parameter name &apos;p_getBytes_3_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="209" column="34" severity="warning" message="Parameter name &apos;p_getBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="209" column="57" severity="warning" message="Parameter name &apos;p_getBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="209" column="76" severity="warning" message="Parameter name &apos;p_getBytes_3_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="209" column="95" severity="warning" message="Parameter name &apos;p_getBytes_4_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="215" column="34" severity="warning" message="Parameter name &apos;p_getBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="215" column="56" severity="warning" message="Parameter name &apos;p_getBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="221" column="34" severity="warning" message="Parameter name &apos;p_getBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="221" column="56" severity="warning" message="Parameter name &apos;p_getBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="221" column="75" severity="warning" message="Parameter name &apos;p_getBytes_3_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="221" column="94" severity="warning" message="Parameter name &apos;p_getBytes_4_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="227" column="34" severity="warning" message="Parameter name &apos;p_getBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="227" column="60" severity="warning" message="Parameter name &apos;p_getBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="233" column="34" severity="warning" message="Parameter name &apos;p_getBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="233" column="62" severity="warning" message="Parameter name &apos;p_getBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="233" column="81" severity="warning" message="Parameter name &apos;p_getBytes_3_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="239" column="30" severity="warning" message="Parameter name &apos;p_getBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="239" column="66" severity="warning" message="Parameter name &apos;p_getBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="239" column="85" severity="warning" message="Parameter name &apos;p_getBytes_3_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="251" column="30" severity="warning" message="Parameter name &apos;p_getChar_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="263" column="34" severity="warning" message="Parameter name &apos;p_getDouble_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="269" column="32" severity="warning" message="Parameter name &apos;p_getFloat_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="275" column="28" severity="warning" message="Parameter name &apos;p_getInt_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="287" column="30" severity="warning" message="Parameter name &apos;p_getLong_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="299" column="31" severity="warning" message="Parameter name &apos;p_getMedium_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="311" column="32" severity="warning" message="Parameter name &apos;p_getShort_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="323" column="39" severity="warning" message="Parameter name &apos;p_getUnsignedByte_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="329" column="37" severity="warning" message="Parameter name &apos;p_getUnsignedInt_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="341" column="39" severity="warning" message="Parameter name &apos;p_getUnsignedMedium_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="353" column="38" severity="warning" message="Parameter name &apos;p_getUnsignedShort_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="382" column="29" severity="warning" message="Parameter name &apos;p_indexOf_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="382" column="47" severity="warning" message="Parameter name &apos;p_indexOf_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="382" column="66" severity="warning" message="Parameter name &apos;p_indexOf_3_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="388" column="46" severity="warning" message="Parameter name &apos;p_internalNioBuffer_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="388" column="74" severity="warning" message="Parameter name &apos;p_internalNioBuffer_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="412" column="36" severity="warning" message="Parameter name &apos;p_isReadable_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="424" column="36" severity="warning" message="Parameter name &apos;p_isWritable_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="466" column="38" severity="warning" message="Parameter name &apos;p_nioBuffer_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="466" column="58" severity="warning" message="Parameter name &apos;p_nioBuffer_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="484" column="41" severity="warning" message="Parameter name &apos;p_nioBuffers_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="484" column="62" severity="warning" message="Parameter name &apos;p_nioBuffers_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="496" column="37" severity="warning" message="Parameter name &apos;p_order_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="514" column="35" severity="warning" message="Parameter name &apos;p_readBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="520" column="39" severity="warning" message="Parameter name &apos;p_readBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="526" column="39" severity="warning" message="Parameter name &apos;p_readBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="526" column="59" severity="warning" message="Parameter name &apos;p_readBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="532" column="39" severity="warning" message="Parameter name &apos;p_readBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="532" column="59" severity="warning" message="Parameter name &apos;p_readBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="532" column="79" severity="warning" message="Parameter name &apos;p_readBytes_3_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="538" column="38" severity="warning" message="Parameter name &apos;p_readBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="544" column="38" severity="warning" message="Parameter name &apos;p_readBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="544" column="58" severity="warning" message="Parameter name &apos;p_readBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="544" column="78" severity="warning" message="Parameter name &apos;p_readBytes_3_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="550" column="42" severity="warning" message="Parameter name &apos;p_readBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="556" column="44" severity="warning" message="Parameter name &apos;p_readBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="556" column="64" severity="warning" message="Parameter name &apos;p_readBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="562" column="48" severity="warning" message="Parameter name &apos;p_readBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="562" column="68" severity="warning" message="Parameter name &apos;p_readBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="652" column="35" severity="warning" message="Parameter name &apos;p_readSlice_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="768" column="37" severity="warning" message="Parameter name &apos;p_readerIndex_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="786" column="33" severity="warning" message="Parameter name &apos;p_release_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="804" column="32" severity="warning" message="Parameter name &apos;p_retain_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="834" column="36" severity="warning" message="Parameter name &apos;p_setBoolean_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="834" column="61" severity="warning" message="Parameter name &apos;p_setBoolean_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="840" column="33" severity="warning" message="Parameter name &apos;p_setByte_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="840" column="51" severity="warning" message="Parameter name &apos;p_setByte_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="846" column="34" severity="warning" message="Parameter name &apos;p_setBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="846" column="57" severity="warning" message="Parameter name &apos;p_setBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="852" column="34" severity="warning" message="Parameter name &apos;p_setBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="852" column="57" severity="warning" message="Parameter name &apos;p_setBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="852" column="76" severity="warning" message="Parameter name &apos;p_setBytes_3_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="858" column="34" severity="warning" message="Parameter name &apos;p_setBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="858" column="57" severity="warning" message="Parameter name &apos;p_setBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="858" column="76" severity="warning" message="Parameter name &apos;p_setBytes_3_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="858" column="95" severity="warning" message="Parameter name &apos;p_setBytes_4_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="864" column="34" severity="warning" message="Parameter name &apos;p_setBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="864" column="56" severity="warning" message="Parameter name &apos;p_setBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="870" column="34" severity="warning" message="Parameter name &apos;p_setBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="870" column="56" severity="warning" message="Parameter name &apos;p_setBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="870" column="75" severity="warning" message="Parameter name &apos;p_setBytes_3_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="870" column="94" severity="warning" message="Parameter name &apos;p_setBytes_4_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="876" column="34" severity="warning" message="Parameter name &apos;p_setBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="876" column="60" severity="warning" message="Parameter name &apos;p_setBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="882" column="30" severity="warning" message="Parameter name &apos;p_setBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="882" column="57" severity="warning" message="Parameter name &apos;p_setBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="882" column="76" severity="warning" message="Parameter name &apos;p_setBytes_3_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="888" column="30" severity="warning" message="Parameter name &apos;p_setBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="888" column="67" severity="warning" message="Parameter name &apos;p_setBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="888" column="86" severity="warning" message="Parameter name &apos;p_setBytes_3_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="900" column="33" severity="warning" message="Parameter name &apos;p_setChar_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="900" column="51" severity="warning" message="Parameter name &apos;p_setChar_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="912" column="35" severity="warning" message="Parameter name &apos;p_setDouble_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="912" column="58" severity="warning" message="Parameter name &apos;p_setDouble_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="918" column="34" severity="warning" message="Parameter name &apos;p_setFloat_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="918" column="55" severity="warning" message="Parameter name &apos;p_setFloat_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="924" column="34" severity="warning" message="Parameter name &apos;p_setIndex_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="924" column="53" severity="warning" message="Parameter name &apos;p_setIndex_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="930" column="32" severity="warning" message="Parameter name &apos;p_setInt_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="930" column="49" severity="warning" message="Parameter name &apos;p_setInt_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="942" column="33" severity="warning" message="Parameter name &apos;p_setLong_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="942" column="52" severity="warning" message="Parameter name &apos;p_setLong_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="954" column="35" severity="warning" message="Parameter name &apos;p_setMedium_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="954" column="55" severity="warning" message="Parameter name &apos;p_setMedium_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="966" column="34" severity="warning" message="Parameter name &apos;p_setShort_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="966" column="53" severity="warning" message="Parameter name &apos;p_setShort_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="978" column="33" severity="warning" message="Parameter name &apos;p_setZero_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="978" column="51" severity="warning" message="Parameter name &apos;p_setZero_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="984" column="35" severity="warning" message="Parameter name &apos;p_skipBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="996" column="31" severity="warning" message="Parameter name &apos;p_slice_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="996" column="47" severity="warning" message="Parameter name &apos;p_slice_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1002" column="37" severity="warning" message="Parameter name &apos;p_toString_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1008" column="33" severity="warning" message="Parameter name &apos;p_toString_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1008" column="52" severity="warning" message="Parameter name &apos;p_toString_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1008" column="75" severity="warning" message="Parameter name &apos;p_toString_3_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1043" column="42" severity="warning" message="Parameter name &apos;p_writeBoolean_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1049" column="35" severity="warning" message="Parameter name &apos;p_writeByte_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1055" column="40" severity="warning" message="Parameter name &apos;p_writeBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1061" column="40" severity="warning" message="Parameter name &apos;p_writeBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1061" column="61" severity="warning" message="Parameter name &apos;p_writeBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1067" column="40" severity="warning" message="Parameter name &apos;p_writeBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1067" column="61" severity="warning" message="Parameter name &apos;p_writeBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1067" column="82" severity="warning" message="Parameter name &apos;p_writeBytes_3_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1073" column="39" severity="warning" message="Parameter name &apos;p_writeBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1079" column="39" severity="warning" message="Parameter name &apos;p_writeBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1079" column="60" severity="warning" message="Parameter name &apos;p_writeBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1079" column="81" severity="warning" message="Parameter name &apos;p_writeBytes_3_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1085" column="43" severity="warning" message="Parameter name &apos;p_writeBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1091" column="40" severity="warning" message="Parameter name &apos;p_writeBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1091" column="61" severity="warning" message="Parameter name &apos;p_writeBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1097" column="50" severity="warning" message="Parameter name &apos;p_writeBytes_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1097" column="71" severity="warning" message="Parameter name &apos;p_writeBytes_2_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1109" column="35" severity="warning" message="Parameter name &apos;p_writeChar_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1121" column="40" severity="warning" message="Parameter name &apos;p_writeDouble_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1127" column="38" severity="warning" message="Parameter name &apos;p_writeFloat_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1133" column="34" severity="warning" message="Parameter name &apos;p_writeInt_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1145" column="36" severity="warning" message="Parameter name &apos;p_writeLong_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1157" column="37" severity="warning" message="Parameter name &apos;p_writeMedium_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1169" column="36" severity="warning" message="Parameter name &apos;p_writeShort_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1214" column="35" severity="warning" message="Parameter name &apos;p_writeZero_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1226" column="37" severity="warning" message="Parameter name &apos;p_writerIndex_1_&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/tcp/Packet.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/tcp/PacketPingPong.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/tcp/TCPCodec.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/tcp/TCPHandler.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/tcp/TCPInitializer.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/tcp/TCPService.java">
+<error line="27" column="8" severity="info" message="Unused import - io.amelia.support.WeakReferenceList." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="83" column="61" severity="warning" message="&apos;{&apos; at column 49 should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="109" column="71" severity="warning" message="&apos;{&apos; at column 65 should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/ClusterRole.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/NetworkLoader.java">
+<error line="56" column="29" severity="warning" message="Method name &apos;UDP&apos; must match pattern &apos;^(?:_INVALID_)?[a-z][a-zA-Z0-9_]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/NetworkWorker.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/ipc/IPC.java">
+<error line="34" column="89" severity="warning" message="&apos;{&apos; at column 83 should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="41" column="89" severity="warning" message="&apos;{&apos; at column 83 should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="50" column="93" severity="warning" message="&apos;{&apos; at column 84 should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/ipc/RemoteInterface.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/ipc/RemoteReceiver.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/ipc/RemoteSender.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/messages/ApplicationInfoMessage.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/messages/Messages.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/messages/NetworkMessage.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/packets/DataPacket.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/packets/PacketRequest.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/packets/PacketRequestInfo.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/packets/PacketRequestStop.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/packets/PacketResponse.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/packets/PacketValidationException.java">
+<error line="20" column="20" severity="warning" message="Method type parameter name &apos;Rtn&apos; must match pattern &apos;^[A-Z]$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodTypeParameterNameCheck"/>
+<error line="25" column="20" severity="warning" message="Method type parameter name &apos;Rtn&apos; must match pattern &apos;^[A-Z]$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodTypeParameterNameCheck"/>
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/packets/RawPacket.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/udp/UDPHandler.java">
+<error line="177" column="9" severity="warning" message="Redundant &apos;public&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/udp/UDPPacketCodec.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/udp/UDPPacketHandler.java">
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/net/wip/udp/UDPWorker.java">
+<error line="236" column="57" severity="warning" message="&apos;{&apos; at column 48 should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="280" column="9" severity="warning" message="Redundant &apos;public&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+</file>
+<file name="/media/amelia/3d70fa9d-867c-42a6-b271-4c84c10e0b8a/files/Java/AmeliaPOS/modules/AmeliaNetworkingLib/src/main/java/io/amelia/support/NetUtilities.java">
+</file>
+</checkstyle>

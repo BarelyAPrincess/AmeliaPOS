@@ -1,0 +1,53 @@
+[main      ] 09-11 01:54:57.160 [SEVERE] [SysErr] [JposServiceLoader]Custom manager is defined: className= jpos.loader.simple.SimpleServiceManager
+[main      ] 09-11 01:54:57.276 [SEVERE] [SysErr] [XercesRegPopulator]load(): isPopulatorFileDefined=true
+[main      ] 09-11 01:54:57.279 [SEVERE] [SysErr] [AbstractRegPopulator]getPopulatorFileIS(): populatorFileName=/opt/EpsonJavaPOS/jpos.xml
+[main      ] 09-11 01:54:57.362 [SEVERE] [SysErr] [JposServiceLoader]manager.getEntryRegistry().load() OK
+[main      ] 09-11 01:54:57.363 [SEVERE] [SysErr] [JposServiceLoader]findService: POSPrinter
+[main      ] 09-11 01:55:07.460 [INFO] [Foundation] Application has entered runlevel "STARTUP". onRunlevelChange() took 10306ms!
+[main      ] 09-11 01:55:07.462 [FINE] [Kernel] joinLoop()
+[main      ] 09-11 01:55:07.470 [INFO] [Kernel] Task entry created!
+java.lang.Thread.getStackTrace(Thread.java:1559)
+io.amelia.support.Exceptions.getStackTrace(Exceptions.java:34)
+io.amelia.looper.LooperTaskTrait.postTask(LooperTaskTrait.java:43)
+io.amelia.foundation.Foundation.setRunlevelLater(Foundation.java:964)
+io.amelia.foundation.Foundation.setRunlevelLater(Foundation.java:962)
+io.amelia.foundation.Foundation.setRunlevelLater(Foundation.java:956)
+io.amelia.foundation.Foundation.onRunlevelChange(Foundation.java:705)
+io.amelia.foundation.Foundation.setRunlevel0(Foundation.java:929)
+io.amelia.foundation.Foundation.setRunlevel(Foundation.java:894)
+io.amelia.foundation.Foundation.setRunlevel(Foundation.java:880)
+io.amelia.foundation.FoundationLooper.signalInfallibleStartup(FoundationLooper.java:75)
+io.amelia.looper.AbstractLooper$LooperControl.signalInfallibleStartup(AbstractLooper.java:493)
+io.amelia.looper.queue.DefaultQueue.lambda$new$0(DefaultQueue.java:48)
+io.amelia.looper.LooperTaskTrait$TaskEntry.run0(LooperTaskTrait.java:357)
+io.amelia.looper.queue.EntryRunnable.lambda$run$0(EntryRunnable.java:38)
+io.amelia.looper.queue.EntryRunnable.run(EntryRunnable.java:52)
+io.amelia.looper.MainLooper.tick(MainLooper.java:58)
+io.amelia.looper.AbstractLooper.joinLoop(AbstractLooper.java:252)
+io.amelia.foundation.Foundation.start(Foundation.java:1013)
+io.amelia.pos.client.EntryPoint.main(EntryPoint.java:55)
+[main      ] 09-11 01:55:07.472 [INFO] [Foundation] Application has entered runlevel "MAINLOOP". onRunlevelChange() took 6ms!
+[main      ] 09-11 01:55:07.514 [INFO] [Kernel] Task entry created!
+java.lang.Thread.getStackTrace(Thread.java:1559)
+io.amelia.support.Exceptions.getStackTrace(Exceptions.java:34)
+io.amelia.looper.LooperTaskTrait.postTask(LooperTaskTrait.java:43)
+io.amelia.foundation.Foundation.setRunlevelLater(Foundation.java:964)
+io.amelia.foundation.Foundation.setRunlevelLater(Foundation.java:962)
+io.amelia.foundation.Foundation.setRunlevelLater(Foundation.java:956)
+io.amelia.foundation.Foundation.onRunlevelChange(Foundation.java:711)
+io.amelia.foundation.Foundation.setRunlevel0(Foundation.java:929)
+io.amelia.foundation.Foundation.lambda$setRunlevelLater$21(Foundation.java:964)
+io.amelia.looper.LooperTaskTrait$TaskEntry.run0(LooperTaskTrait.java:357)
+io.amelia.looper.queue.EntryRunnable.lambda$run$0(EntryRunnable.java:38)
+io.amelia.looper.queue.EntryRunnable.run(EntryRunnable.java:52)
+io.amelia.looper.MainLooper.tick(MainLooper.java:58)
+io.amelia.looper.AbstractLooper.joinLoop(AbstractLooper.java:252)
+io.amelia.foundation.Foundation.start(Foundation.java:1013)
+io.amelia.pos.client.EntryPoint.main(EntryPoint.java:55)
+[main      ] 09-11 01:55:07.517 [INFO] [Foundation] Application has entered runlevel "NETWORKING". onRunlevelChange() took 3ms!
+[main      ] 09-11 01:55:07.617 [INFO] [Foundation] Application is entering runlevel "SHUTDOWN", for reason: We're Done Here!.
+[main      ] 09-11 01:55:07.619 [INFO] [Foundation] Shutting Down Task Manager...
+[main      ] 09-11 01:55:07.620 [INFO] [Foundation] Saving Configuration...
+[main      ] 09-11 01:55:07.622 [INFO] [Foundation] Clearing Excess Cache...
+[main      ] 09-11 01:55:07.979 [INFO] [Foundation] Application has entered runlevel "SHUTDOWN". onRunlevelChange() took 364ms!
+[main      ] 09-11 01:55:07.981 [INFO] [Foundation] Application has entered runlevel "STARTED". onRunlevelChange() took -1ms!

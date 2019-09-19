@@ -1,2 +1,7 @@
 Manifest-Version: 1.0
+Implementation-Title: Amelia POS
+Implementation-Version: 1.0.0-git+H7466245
+Implementation-Vendor-Id: me@missameliasara.com
+Implementation-Vendor: Miss Amelia Sara (Millie)
+Main-Class: io.amelia.pos.server.EntryPoint
 

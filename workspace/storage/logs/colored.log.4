@@ -1,0 +1,188 @@
+[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:39.954 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m[JposServiceLoader]Custom manager is defined: className= jpos.loader.simple.SimpleServiceManager
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.069 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m[XercesRegPopulator]load(): isPopulatorFileDefined=true
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.072 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m[AbstractRegPopulator]getPopulatorFileIS(): populatorFileName=/opt/EpsonJavaPOS/jpos.xml
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.075 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m[XercesRegPopulator]Error loading XML file.  Exception.msg = /opt/EpsonJavaPOS/jpos.xml (No such file or directory)
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.077 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m[JposServiceLoader]manager.getEntryRegistry().load() OK
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.078 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m[JposServiceLoader]findService: POSPrinter
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.079 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m[SimpleServiceManager]createConnection: JposException.msg=Service does not exist in loaded JCL registry
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.081 [[91;1mSEVERE[97;22m][97;1m [97;22m[Kernel][97;1m [91;1mFailed to claim POSPrinter. Printer commands will be disabled.
+jpos.JposException: Service does not exist in loaded JCL registry
+	at jpos.loader.simple.SimpleServiceManager.createConnection(SimpleServiceManager.java:126)
+	at jpos.loader.JposServiceLoader.findService(JposServiceLoader.java:36)
+	at jpos.BaseJposControl.open(BaseJposControl.java:369)
+	at io.amelia.pos.server.AmeliaPOSServer.onRunlevelChange(AmeliaPOSServer.java:156)
+	at io.amelia.foundation.Foundation.onRunlevelChange(Foundation.java:696)
+	at io.amelia.foundation.Foundation.setRunlevel0(Foundation.java:980)
+	at io.amelia.foundation.Foundation.setRunlevel(Foundation.java:945)
+	at io.amelia.foundation.Foundation.setRunlevel(Foundation.java:931)
+	at io.amelia.foundation.Foundation.start(Foundation.java:1048)
+	at io.amelia.pos.server.EntryPoint.main(EntryPoint.java:106)
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.084 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m[JposServiceLoader]findService: CashDrawer
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.086 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m[SimpleServiceManager]createConnection: JposException.msg=Service does not exist in loaded JCL registry
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.087 [[91;1mSEVERE[97;22m][97;1m [97;22m[Kernel][97;1m [91;1mFailed to claim CashDrawer. Drawer commands will be disabled.
+jpos.JposException: Service does not exist in loaded JCL registry
+	at jpos.loader.simple.SimpleServiceManager.createConnection(SimpleServiceManager.java:126)
+	at jpos.loader.JposServiceLoader.findService(JposServiceLoader.java:36)
+	at jpos.BaseJposControl.open(BaseJposControl.java:369)
+	at io.amelia.pos.server.AmeliaPOSServer.onRunlevelChange(AmeliaPOSServer.java:167)
+	at io.amelia.foundation.Foundation.onRunlevelChange(Foundation.java:696)
+	at io.amelia.foundation.Foundation.setRunlevel0(Foundation.java:980)
+	at io.amelia.foundation.Foundation.setRunlevel(Foundation.java:945)
+	at io.amelia.foundation.Foundation.setRunlevel(Foundation.java:931)
+	at io.amelia.foundation.Foundation.start(Foundation.java:1048)
+	at io.amelia.pos.server.EntryPoint.main(EntryPoint.java:106)
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.091 [[97;1mINFO[97;22m][97;1m [97;22m[Foundation][97;1m [97;1mInitializing Console
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.126 [[93;22mWARNING[97;22m][97;1m Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.345 [[95;22mCONFIG[97;22m][97;1m [97;22m[Kernel][97;1m [95;22mConnecting to RabbitMQ Server
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.469 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1mCreate queue amq.gen-RCUT8qzH6f1ctY9taXOkbQ
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.499 [[97;1mINFO[97;22m][97;1m [97;22m[Foundation][97;1m [97;1m[96;1mApplication has entered runlevel [96;1m"STARTUP"[96;1m. onRunlevelChange() took 553ms!
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.500 [[97;22mFINE[97;22m][97;1m [97;22m[Kernel][97;1m [97;22mjoinLoop()
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.504 [[97;1mINFO[97;22m][97;1m [97;22m[Foundation][97;1m [97;1m[96;1mApplication has entered runlevel [96;1m"MAINLOOP"[96;1m. onRunlevelChange() took 2ms!
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.552 [[97;1mINFO[97;22m][97;1m [97;22m[Foundation][97;1m [97;1m[96;1mApplication has entered runlevel [96;1m"NETWORKING"[96;1m. onRunlevelChange() took 1ms!
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.605 [[97;1mINFO[97;22m][97;1m [97;22m[Foundation][97;1m [97;1m[93;22mApplication has started! Startup took a total of 5063ms!
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-17 23:59:40.606 [[97;1mINFO[97;22m][97;1m [97;22m[Foundation][97;1m [97;1m[96;1mApplication has entered runlevel [96;1m"STARTED"[96;1m. onRunlevelChange() took 5ms!
+[0;39m[0;39m[97;22m[[95;1mpo..read-4[97;22m] 09-17 23:59:42.694 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1m [x] Received Payload '{[96;1m"cmd"[97;1m:[96;1m"open"[97;1m,[96;1m"uuid"[97;1m:[96;1m"1896ed0f-13c6-4038-be8a-0f958784c036"[97;1m}'
+[0;39m[0;39m[97;22m[[95;1mpo..read-4[97;22m] 09-17 23:59:42.808 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1mKeys: {}
+[0;39m[0;39m[97;22m[[95;1mpo..read-4[97;22m] 09-17 23:59:42.810 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1mio.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[0;39m[0;39m[97;22m[[95;1mpo..read-4[97;22m] 09-17 23:59:42.812 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..read-4[97;22m] 09-17 23:59:42.813 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[0;39m[0;39m[97;22m[[95;1mpo..read-4[97;22m] 09-17 23:59:42.814 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..read-4[97;22m] 09-17 23:59:42.817 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[0;39m[0;39m[97;22m[[95;1mpo..read-4[97;22m] 09-17 23:59:42.819 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[0;39m[0;39m[97;22m[[95;1mpo..read-4[97;22m] 09-17 23:59:42.820 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[0;39m[0;39m[97;22m[[95;1mpo..read-4[97;22m] 09-17 23:59:42.822 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[0;39m[0;39m[97;22m[[95;1mpo..read-4[97;22m] 09-17 23:59:42.823 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[0;39m[0;39m[97;22m[[95;1mpo..read-4[97;22m] 09-17 23:59:42.825 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.lang.Thread.run(Thread.java:748)
+[0;39m[0;39m[97;22m[[95;1mpo..read-5[97;22m] 09-18 00:01:00.873 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1m [x] Received Payload '{[96;1m"cmd"[97;1m:[96;1m"open"[97;1m,[96;1m"uuid"[97;1m:[96;1m"1896ed0f-13c6-4038-be8a-0f958784c036"[97;1m}'
+[0;39m[0;39m[97;22m[[95;1mpo..read-5[97;22m] 09-18 00:01:00.877 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1mKeys: {}
+[0;39m[0;39m[97;22m[[95;1mpo..read-5[97;22m] 09-18 00:01:00.880 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1mio.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[0;39m[0;39m[97;22m[[95;1mpo..read-5[97;22m] 09-18 00:01:00.881 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..read-5[97;22m] 09-18 00:01:00.882 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[0;39m[0;39m[97;22m[[95;1mpo..read-5[97;22m] 09-18 00:01:00.883 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..read-5[97;22m] 09-18 00:01:00.884 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[0;39m[0;39m[97;22m[[95;1mpo..read-5[97;22m] 09-18 00:01:00.886 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[0;39m[0;39m[97;22m[[95;1mpo..read-5[97;22m] 09-18 00:01:00.887 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[0;39m[0;39m[97;22m[[95;1mpo..read-5[97;22m] 09-18 00:01:00.888 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[0;39m[0;39m[97;22m[[95;1mpo..read-5[97;22m] 09-18 00:01:00.890 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[0;39m[0;39m[97;22m[[95;1mpo..read-5[97;22m] 09-18 00:01:00.891 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.lang.Thread.run(Thread.java:748)
+[0;39m[0;39m[97;22m[[95;1mpo..read-6[97;22m] 09-18 00:05:17.538 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1m [x] Received Payload '{[96;1m"cmd"[97;1m:[96;1m"open"[97;1m,[96;1m"uuid"[97;1m:[96;1m"1896ed0f-13c6-4038-be8a-0f958784c036"[97;1m}'
+[0;39m[0;39m[97;22m[[95;1mpo..read-6[97;22m] 09-18 00:05:17.542 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1mKeys: {}
+[0;39m[0;39m[97;22m[[95;1mpo..read-6[97;22m] 09-18 00:05:17.543 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1mio.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[0;39m[0;39m[97;22m[[95;1mpo..read-6[97;22m] 09-18 00:05:17.545 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..read-6[97;22m] 09-18 00:05:17.546 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[0;39m[0;39m[97;22m[[95;1mpo..read-6[97;22m] 09-18 00:05:17.548 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..read-6[97;22m] 09-18 00:05:17.549 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[0;39m[0;39m[97;22m[[95;1mpo..read-6[97;22m] 09-18 00:05:17.550 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[0;39m[0;39m[97;22m[[95;1mpo..read-6[97;22m] 09-18 00:05:17.551 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[0;39m[0;39m[97;22m[[95;1mpo..read-6[97;22m] 09-18 00:05:17.552 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[0;39m[0;39m[97;22m[[95;1mpo..read-6[97;22m] 09-18 00:05:17.553 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[0;39m[0;39m[97;22m[[95;1mpo..read-6[97;22m] 09-18 00:05:17.554 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.lang.Thread.run(Thread.java:748)
+[0;39m[0;39m[97;22m[[95;1mpo..read-7[97;22m] 09-18 00:19:55.233 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1m [x] Received Payload '{[96;1m"cmd"[97;1m:[96;1m"open"[97;1m,[96;1m"uuid"[97;1m:[96;1m"1896ed0f-13c6-4038-be8a-0f958784c036"[97;1m}'
+[0;39m[0;39m[97;22m[[95;1mpo..read-7[97;22m] 09-18 00:19:55.238 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1mKeys: {}
+[0;39m[0;39m[97;22m[[95;1mpo..read-7[97;22m] 09-18 00:19:55.239 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1mio.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[0;39m[0;39m[97;22m[[95;1mpo..read-7[97;22m] 09-18 00:19:55.240 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..read-7[97;22m] 09-18 00:19:55.241 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[0;39m[0;39m[97;22m[[95;1mpo..read-7[97;22m] 09-18 00:19:55.242 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..read-7[97;22m] 09-18 00:19:55.243 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[0;39m[0;39m[97;22m[[95;1mpo..read-7[97;22m] 09-18 00:19:55.245 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[0;39m[0;39m[97;22m[[95;1mpo..read-7[97;22m] 09-18 00:19:55.246 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[0;39m[0;39m[97;22m[[95;1mpo..read-7[97;22m] 09-18 00:19:55.247 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[0;39m[0;39m[97;22m[[95;1mpo..read-7[97;22m] 09-18 00:19:55.248 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[0;39m[0;39m[97;22m[[95;1mpo..read-7[97;22m] 09-18 00:19:55.249 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.lang.Thread.run(Thread.java:748)
+[0;39m[0;39m[97;22m[[95;1mpo..read-8[97;22m] 09-18 00:23:33.439 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1m [x] Received Payload '{[96;1m"cmd"[97;1m:[96;1m"receipt"[97;1m,[96;1m"uuid"[97;1m:[96;1m"1896ed0f-13c6-4038-be8a-0f958784c036"[97;1m}'
+[0;39m[0;39m[97;22m[[95;1mpo..read-8[97;22m] 09-18 00:23:33.442 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1mKeys: {}
+[0;39m[0;39m[97;22m[[95;1mpo..read-8[97;22m] 09-18 00:23:33.444 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1mio.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[0;39m[0;39m[97;22m[[95;1mpo..read-8[97;22m] 09-18 00:23:33.445 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..read-8[97;22m] 09-18 00:23:33.446 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[0;39m[0;39m[97;22m[[95;1mpo..read-8[97;22m] 09-18 00:23:33.447 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..read-8[97;22m] 09-18 00:23:33.448 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[0;39m[0;39m[97;22m[[95;1mpo..read-8[97;22m] 09-18 00:23:33.449 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[0;39m[0;39m[97;22m[[95;1mpo..read-8[97;22m] 09-18 00:23:33.450 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[0;39m[0;39m[97;22m[[95;1mpo..read-8[97;22m] 09-18 00:23:33.451 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[0;39m[0;39m[97;22m[[95;1mpo..read-8[97;22m] 09-18 00:23:33.452 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[0;39m[0;39m[97;22m[[95;1mpo..read-8[97;22m] 09-18 00:23:33.453 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.lang.Thread.run(Thread.java:748)
+[0;39m[0;39m[97;22m[[95;1mpo..read-9[97;22m] 09-18 00:24:11.306 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1m [x] Received Payload '{[96;1m"cmd"[97;1m:[96;1m"open"[97;1m,[96;1m"uuid"[97;1m:[96;1m"1896ed0f-13c6-4038-be8a-0f958784c036"[97;1m}'
+[0;39m[0;39m[97;22m[[95;1mpo..read-9[97;22m] 09-18 00:24:11.309 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1mKeys: {}
+[0;39m[0;39m[97;22m[[95;1mpo..read-9[97;22m] 09-18 00:24:11.310 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1mio.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[0;39m[0;39m[97;22m[[95;1mpo..read-9[97;22m] 09-18 00:24:11.311 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..read-9[97;22m] 09-18 00:24:11.312 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[0;39m[0;39m[97;22m[[95;1mpo..read-9[97;22m] 09-18 00:24:11.313 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..read-9[97;22m] 09-18 00:24:11.314 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[0;39m[0;39m[97;22m[[95;1mpo..read-9[97;22m] 09-18 00:24:11.315 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[0;39m[0;39m[97;22m[[95;1mpo..read-9[97;22m] 09-18 00:24:11.316 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[0;39m[0;39m[97;22m[[95;1mpo..read-9[97;22m] 09-18 00:24:11.317 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[0;39m[0;39m[97;22m[[95;1mpo..read-9[97;22m] 09-18 00:24:11.318 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[0;39m[0;39m[97;22m[[95;1mpo..read-9[97;22m] 09-18 00:24:11.319 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.lang.Thread.run(Thread.java:748)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-10[97;22m] 09-18 00:34:57.862 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1m [x] Received Payload '{[96;1m"cmd"[97;1m:[96;1m"open"[97;1m,[96;1m"uuid"[97;1m:[96;1m"1896ed0f-13c6-4038-be8a-0f958784c036"[97;1m}'
+[0;39m[0;39m[97;22m[[95;1mpo..ead-10[97;22m] 09-18 00:34:57.865 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1mKeys: {}
+[0;39m[0;39m[97;22m[[95;1mpo..ead-10[97;22m] 09-18 00:34:57.866 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1mio.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[0;39m[0;39m[97;22m[[95;1mpo..ead-10[97;22m] 09-18 00:34:57.867 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-10[97;22m] 09-18 00:34:57.868 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-10[97;22m] 09-18 00:34:57.869 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-10[97;22m] 09-18 00:34:57.870 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-10[97;22m] 09-18 00:34:57.870 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-10[97;22m] 09-18 00:34:57.871 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-10[97;22m] 09-18 00:34:57.872 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-10[97;22m] 09-18 00:34:57.873 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-10[97;22m] 09-18 00:34:57.874 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.lang.Thread.run(Thread.java:748)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-11[97;22m] 09-18 01:15:35.870 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1m [x] Received Payload '{[96;1m"badge"[97;1m:[96;1m"1"[97;1m,[96;1m"badgeName"[97;1m:[96;1m"Amelia Greene"[97;1m,[96;1m"badgeId"[97;1m:[96;1m"ad092G"[97;1m}'
+[0;39m[0;39m[97;22m[[95;1mpo..ead-11[97;22m] 09-18 01:15:35.876 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1mKeys: {}
+[0;39m[0;39m[97;22m[[95;1mpo..ead-11[97;22m] 09-18 01:15:35.877 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1mio.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[0;39m[0;39m[97;22m[[95;1mpo..ead-11[97;22m] 09-18 01:15:35.878 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-11[97;22m] 09-18 01:15:35.879 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-11[97;22m] 09-18 01:15:35.880 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-11[97;22m] 09-18 01:15:35.887 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-11[97;22m] 09-18 01:15:35.888 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-11[97;22m] 09-18 01:15:35.889 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-11[97;22m] 09-18 01:15:35.890 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-11[97;22m] 09-18 01:15:35.890 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-11[97;22m] 09-18 01:15:35.891 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.lang.Thread.run(Thread.java:748)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-12[97;22m] 09-18 01:16:04.329 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1m [x] Received Payload '{[96;1m"badge"[97;1m:[96;1m"1"[97;1m,[96;1m"uuid"[97;1m:[96;1m"1896ed0f-13c6-4038-be8a-0f958784c036"[97;1m,[96;1m"badgeName"[97;1m:[96;1m"Amelia Greene"[97;1m,[96;1m"badgeId"[97;1m:[96;1m"ad092G"[97;1m}'
+[0;39m[0;39m[97;22m[[95;1mpo..ead-12[97;22m] 09-18 01:16:04.331 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1mKeys: {}
+[0;39m[0;39m[97;22m[[95;1mpo..ead-12[97;22m] 09-18 01:16:04.333 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1mio.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[0;39m[0;39m[97;22m[[95;1mpo..ead-12[97;22m] 09-18 01:16:04.335 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-12[97;22m] 09-18 01:16:04.336 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-12[97;22m] 09-18 01:16:04.337 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-12[97;22m] 09-18 01:16:04.337 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-12[97;22m] 09-18 01:16:04.338 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-12[97;22m] 09-18 01:16:04.340 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-12[97;22m] 09-18 01:16:04.341 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-12[97;22m] 09-18 01:16:04.342 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-12[97;22m] 09-18 01:16:04.343 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.lang.Thread.run(Thread.java:748)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-13[97;22m] 09-18 01:22:49.229 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1m [x] Received Payload '{[96;1m"badge"[97;1m:[96;1m"1"[97;1m,[96;1m"uuid"[97;1m:[96;1m"1896ed0f-13c6-4038-be8a-0f958784c036"[97;1m,[96;1m"badgeName"[97;1m:[96;1m"Amelia Greene"[97;1m,[96;1m"badgeId"[97;1m:[96;1m"ag092G"[97;1m}'
+[0;39m[0;39m[97;22m[[95;1mpo..ead-13[97;22m] 09-18 01:22:49.232 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1mKeys: {}
+[0;39m[0;39m[97;22m[[95;1mpo..ead-13[97;22m] 09-18 01:22:49.233 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1mio.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[0;39m[0;39m[97;22m[[95;1mpo..ead-13[97;22m] 09-18 01:22:49.235 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-13[97;22m] 09-18 01:22:49.236 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-13[97;22m] 09-18 01:22:49.237 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-13[97;22m] 09-18 01:22:49.238 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-13[97;22m] 09-18 01:22:49.238 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-13[97;22m] 09-18 01:22:49.239 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-13[97;22m] 09-18 01:22:49.240 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-13[97;22m] 09-18 01:22:49.241 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-13[97;22m] 09-18 01:22:49.242 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.lang.Thread.run(Thread.java:748)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-14[97;22m] 09-18 01:24:00.089 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1m [x] Received Payload '{[96;1m"badge"[97;1m:[96;1m"1"[97;1m,[96;1m"uuid"[97;1m:[96;1m"1896ed0f-13c6-4038-be8a-0f958784c036"[97;1m,[96;1m"name"[97;1m:[96;1m"Amelia Greene"[97;1m,[96;1m"badgeId"[97;1m:[96;1m"ag092G"[97;1m}'
+[0;39m[0;39m[97;22m[[95;1mpo..ead-14[97;22m] 09-18 01:24:00.091 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1mKeys: {}
+[0;39m[0;39m[97;22m[[95;1mpo..ead-14[97;22m] 09-18 01:24:00.092 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1mio.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[0;39m[0;39m[97;22m[[95;1mpo..ead-14[97;22m] 09-18 01:24:00.093 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-14[97;22m] 09-18 01:24:00.093 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-14[97;22m] 09-18 01:24:00.094 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-14[97;22m] 09-18 01:24:00.095 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-14[97;22m] 09-18 01:24:00.096 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-14[97;22m] 09-18 01:24:00.096 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-14[97;22m] 09-18 01:24:00.097 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-14[97;22m] 09-18 01:24:00.097 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-14[97;22m] 09-18 01:24:00.098 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.lang.Thread.run(Thread.java:748)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-15[97;22m] 09-18 01:29:19.083 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1m [x] Received Payload '{[96;1m"badge"[97;1m:[96;1m"1"[97;1m,[96;1m"uuid"[97;1m:[96;1m"1896ed0f-13c6-4038-be8a-0f958784c036"[97;1m,[96;1m"badgeName"[97;1m:[96;1m"Amelia Greene"[97;1m,[96;1m"badgeId"[97;1m:[96;1m"ag092G"[97;1m}'
+[0;39m[0;39m[97;22m[[95;1mpo..ead-15[97;22m] 09-18 01:29:19.087 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1mKeys: {}
+[0;39m[0;39m[97;22m[[95;1mpo..ead-15[97;22m] 09-18 01:29:19.089 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1mio.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[0;39m[0;39m[97;22m[[95;1mpo..ead-15[97;22m] 09-18 01:29:19.090 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-15[97;22m] 09-18 01:29:19.091 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-15[97;22m] 09-18 01:29:19.091 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:301)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-15[97;22m] 09-18 01:29:19.092 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-15[97;22m] 09-18 01:29:19.093 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-15[97;22m] 09-18 01:29:19.094 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-15[97;22m] 09-18 01:29:19.095 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-15[97;22m] 09-18 01:29:19.096 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[0;39m[0;39m[97;22m[[95;1mpo..ead-15[97;22m] 09-18 01:29:19.096 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m	at java.lang.Thread.run(Thread.java:748)
+[0;39m

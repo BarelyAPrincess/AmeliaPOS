@@ -1,0 +1,115 @@
+[main      ] 09-18 00:19:52.505 [SEVERE] [SysErr] [JposServiceLoader]Custom manager is defined: className= jpos.loader.simple.SimpleServiceManager
+[main      ] 09-18 00:19:52.623 [SEVERE] [SysErr] [XercesRegPopulator]load(): isPopulatorFileDefined=true
+[main      ] 09-18 00:19:52.626 [SEVERE] [SysErr] [AbstractRegPopulator]getPopulatorFileIS(): populatorFileName=/opt/EpsonJavaPOS/jpos.xml
+[main      ] 09-18 00:19:52.628 [SEVERE] [SysErr] [XercesRegPopulator]Error loading XML file.  Exception.msg = /opt/EpsonJavaPOS/jpos.xml (No such file or directory)
+[main      ] 09-18 00:19:52.630 [SEVERE] [SysErr] [JposServiceLoader]manager.getEntryRegistry().load() OK
+[main      ] 09-18 00:19:52.631 [SEVERE] [SysErr] [JposServiceLoader]findService: POSPrinter
+[main      ] 09-18 00:19:52.634 [SEVERE] [SysErr] [SimpleServiceManager]createConnection: JposException.msg=Service does not exist in loaded JCL registry
+[main      ] 09-18 00:19:52.636 [SEVERE] [Kernel] Failed to claim POSPrinter. Printer commands will be disabled.
+jpos.JposException: Service does not exist in loaded JCL registry
+	at jpos.loader.simple.SimpleServiceManager.createConnection(SimpleServiceManager.java:126)
+	at jpos.loader.JposServiceLoader.findService(JposServiceLoader.java:36)
+	at jpos.BaseJposControl.open(BaseJposControl.java:369)
+	at io.amelia.pos.server.AmeliaPOSServer.onRunlevelChange(AmeliaPOSServer.java:152)
+	at io.amelia.foundation.Foundation.onRunlevelChange(Foundation.java:696)
+	at io.amelia.foundation.Foundation.setRunlevel0(Foundation.java:980)
+	at io.amelia.foundation.Foundation.setRunlevel(Foundation.java:945)
+	at io.amelia.foundation.Foundation.setRunlevel(Foundation.java:931)
+	at io.amelia.foundation.Foundation.start(Foundation.java:1048)
+	at io.amelia.pos.server.EntryPoint.main(EntryPoint.java:106)
+[main      ] 09-18 00:19:52.640 [SEVERE] [SysErr] [JposServiceLoader]findService: CashDrawer
+[main      ] 09-18 00:19:52.642 [SEVERE] [SysErr] [SimpleServiceManager]createConnection: JposException.msg=Service does not exist in loaded JCL registry
+[main      ] 09-18 00:19:52.644 [SEVERE] [Kernel] Failed to claim CashDrawer. Drawer commands will be disabled.
+jpos.JposException: Service does not exist in loaded JCL registry
+	at jpos.loader.simple.SimpleServiceManager.createConnection(SimpleServiceManager.java:126)
+	at jpos.loader.JposServiceLoader.findService(JposServiceLoader.java:36)
+	at jpos.BaseJposControl.open(BaseJposControl.java:369)
+	at io.amelia.pos.server.AmeliaPOSServer.onRunlevelChange(AmeliaPOSServer.java:163)
+	at io.amelia.foundation.Foundation.onRunlevelChange(Foundation.java:696)
+	at io.amelia.foundation.Foundation.setRunlevel0(Foundation.java:980)
+	at io.amelia.foundation.Foundation.setRunlevel(Foundation.java:945)
+	at io.amelia.foundation.Foundation.setRunlevel(Foundation.java:931)
+	at io.amelia.foundation.Foundation.start(Foundation.java:1048)
+	at io.amelia.pos.server.EntryPoint.main(EntryPoint.java:106)
+[main      ] 09-18 00:19:52.649 [INFO] [Foundation] Initializing Console
+[main      ] 09-18 00:19:52.684 [WARNING] Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+[main      ] 09-18 00:19:52.893 [CONFIG] [Kernel] Connecting to RabbitMQ Server
+[main      ] 09-18 00:19:53.026 [INFO] [Kernel] Create queue amq.gen-7-WWnUTm4_PYvwRNq1patw
+[main      ] 09-18 00:19:53.056 [INFO] [Foundation] Application has entered runlevel "STARTUP". onRunlevelChange() took 558ms!
+[main      ] 09-18 00:19:53.058 [FINE] [Kernel] joinLoop()
+[main      ] 09-18 00:19:53.061 [INFO] [Foundation] Application has entered runlevel "MAINLOOP". onRunlevelChange() took 1ms!
+[main      ] 09-18 00:19:53.109 [INFO] [Foundation] Application has entered runlevel "NETWORKING". onRunlevelChange() took 1ms!
+[main      ] 09-18 00:19:53.163 [INFO] [Foundation] Application has started! Startup took a total of 4924ms!
+[main      ] 09-18 00:19:53.165 [INFO] [Foundation] Application has entered runlevel "STARTED". onRunlevelChange() took 6ms!
+[po..read-4] 09-18 00:19:55.237 [INFO] [Kernel]  [x] Received Payload '{"cmd":"open","uuid":"1896ed0f-13c6-4038-be8a-0f958784c036"}'
+[po..read-4] 09-18 00:19:55.348 [INFO] [Kernel] Keys: io.amelia.data.parcel.Parcel@62aa9fc
+[po..read-4] 09-18 00:19:55.350 [INFO] [Kernel] [x] Is this our UUID? '1896ed0f-13c6-4038-be8a-0f958784c036'
+[po..read-4] 09-18 00:19:55.352 [SEVERE] [Foundation] Failed to open drawer
+jpos.JposException: Control not opened
+	at jpos.CashDrawer.openDrawer(CashDrawer.java:321)
+	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$1(AmeliaPOSServer.java:183)
+	at io.amelia.support.Voluntary.ifPresent(Voluntary.java:401)
+	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:301)
+	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[po..read-5] 09-18 00:23:33.438 [INFO] [Kernel]  [x] Received Payload '{"cmd":"receipt","uuid":"1896ed0f-13c6-4038-be8a-0f958784c036"}'
+[po..read-5] 09-18 00:23:33.442 [INFO] [Kernel] Keys: io.amelia.data.parcel.Parcel@4ce91afe
+[po..read-5] 09-18 00:23:33.444 [INFO] [Kernel] [x] Is this our UUID? '1896ed0f-13c6-4038-be8a-0f958784c036'
+[po..read-6] 09-18 00:24:11.306 [INFO] [Kernel]  [x] Received Payload '{"cmd":"open","uuid":"1896ed0f-13c6-4038-be8a-0f958784c036"}'
+[po..read-6] 09-18 00:24:11.310 [INFO] [Kernel] Keys: io.amelia.data.parcel.Parcel@4fe4eb21
+[po..read-6] 09-18 00:24:11.311 [INFO] [Kernel] [x] Is this our UUID? '1896ed0f-13c6-4038-be8a-0f958784c036'
+[po..read-6] 09-18 00:24:11.313 [SEVERE] [Foundation] Failed to open drawer
+jpos.JposException: Control not opened
+	at jpos.CashDrawer.openDrawer(CashDrawer.java:321)
+	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$1(AmeliaPOSServer.java:183)
+	at io.amelia.support.Voluntary.ifPresent(Voluntary.java:401)
+	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:301)
+	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[po..read-7] 09-18 00:34:57.863 [INFO] [Kernel]  [x] Received Payload '{"cmd":"open","uuid":"1896ed0f-13c6-4038-be8a-0f958784c036"}'
+[po..read-7] 09-18 00:34:57.870 [INFO] [Kernel] Keys: io.amelia.data.parcel.Parcel@39378d7a
+[po..read-7] 09-18 00:34:57.871 [INFO] [Kernel] [x] Is this our UUID? '1896ed0f-13c6-4038-be8a-0f958784c036'
+[po..read-7] 09-18 00:34:57.873 [SEVERE] [Foundation] Failed to open drawer
+jpos.JposException: Control not opened
+	at jpos.CashDrawer.openDrawer(CashDrawer.java:321)
+	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$1(AmeliaPOSServer.java:183)
+	at io.amelia.support.Voluntary.ifPresent(Voluntary.java:401)
+	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:301)
+	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[po..read-8] 09-18 01:15:35.993 [INFO] [Kernel]  [x] Received Payload '{"badge":"1","badgeName":"Amelia Greene","badgeId":"ad092G"}'
+[po..read-8] 09-18 01:15:35.996 [INFO] [Kernel] Keys: io.amelia.data.parcel.Parcel@28b61cbf
+[po..read-8] 09-18 01:15:35.999 [SEVERE] [SysErr] io.amelia.lang.ParcelException$Error: Parcel was missing the UUID key.
+[po..read-8] 09-18 01:15:36.002 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$null$2(AmeliaPOSServer.java:297)
+[po..read-8] 09-18 01:15:36.003 [SEVERE] [SysErr] 	at io.amelia.support.Voluntary.orElseThrow(Voluntary.java:547)
+[po..read-8] 09-18 01:15:36.005 [SEVERE] [SysErr] 	at io.amelia.pos.server.AmeliaPOSServer.lambda$onRunlevelChange$3(AmeliaPOSServer.java:297)
+[po..read-8] 09-18 01:15:36.007 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ChannelN$4.handleDelivery(ChannelN.java:1410)
+[po..read-8] 09-18 01:15:36.008 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerDispatcher$5.run(ConsumerDispatcher.java:149)
+[po..read-8] 09-18 01:15:36.010 [SEVERE] [SysErr] 	at com.rabbitmq.client.impl.ConsumerWorkService$WorkPoolRunnable.run(ConsumerWorkService.java:104)
+[po..read-8] 09-18 01:15:36.011 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[po..read-8] 09-18 01:15:36.012 [SEVERE] [SysErr] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[po..read-8] 09-18 01:15:36.014 [SEVERE] [SysErr] 	at java.lang.Thread.run(Thread.java:748)
+[po..read-9] 09-18 01:16:04.329 [INFO] [Kernel]  [x] Received Payload '{"badge":"1","uuid":"1896ed0f-13c6-4038-be8a-0f958784c036","badgeName":"Amelia Greene","badgeId":"ad092G"}'
+[po..read-9] 09-18 01:16:04.334 [INFO] [Kernel] Keys: io.amelia.data.parcel.Parcel@463a0efc
+[po..read-9] 09-18 01:16:04.336 [INFO] [Kernel] [x] Is this our UUID? '1896ed0f-13c6-4038-be8a-0f958784c036'
+[po..ead-10] 09-18 01:22:49.229 [INFO] [Kernel]  [x] Received Payload '{"badge":"1","uuid":"1896ed0f-13c6-4038-be8a-0f958784c036","badgeName":"Amelia Greene","badgeId":"ag092G"}'
+[po..ead-10] 09-18 01:22:49.236 [INFO] [Kernel] Keys: io.amelia.data.parcel.Parcel@37201494
+[po..ead-10] 09-18 01:22:49.239 [INFO] [Kernel] [x] Is this our UUID? '1896ed0f-13c6-4038-be8a-0f958784c036'
+[po..ead-11] 09-18 01:24:00.090 [INFO] [Kernel]  [x] Received Payload '{"badge":"1","uuid":"1896ed0f-13c6-4038-be8a-0f958784c036","name":"Amelia Greene","badgeId":"ag092G"}'
+[po..ead-11] 09-18 01:24:00.095 [INFO] [Kernel] Keys: io.amelia.data.parcel.Parcel@3ae723e5
+[po..ead-11] 09-18 01:24:00.096 [INFO] [Kernel] [x] Is this our UUID? '1896ed0f-13c6-4038-be8a-0f958784c036'
+[po..ead-12] 09-18 01:29:19.081 [INFO] [Kernel]  [x] Received Payload '{"badge":"1","uuid":"1896ed0f-13c6-4038-be8a-0f958784c036","badgeName":"Amelia Greene","badgeId":"ag092G"}'
+[po..ead-12] 09-18 01:29:19.086 [INFO] [Kernel] Keys: io.amelia.data.parcel.Parcel@4c3f1541
+[po..ead-12] 09-18 01:29:19.087 [INFO] [Kernel] [x] Is this our UUID? '1896ed0f-13c6-4038-be8a-0f958784c036'

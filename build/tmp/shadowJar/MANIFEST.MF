@@ -1,7 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: Amelia POS
-Implementation-Version: 1.0
-Implementation-Vendor-Id: me@missameliasara.com
-Implementation-Vendor: Miss Amelia Sara
-Main-Class: io.amelia.pos.drawer.Step2Main
-

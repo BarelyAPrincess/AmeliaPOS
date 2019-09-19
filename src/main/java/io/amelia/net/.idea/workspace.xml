@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4179ff7-8c38-4afa-98b7-9c9cc96fec96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RabbitMQHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos/client/AmeliaPOSClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos/client/EntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.env" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/4.10.3/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/4.10.3/fileContent/annotation-processors.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/4.10.3/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../.gradle/5.6.2/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../build/distributions/AmeliaPOS-1.0.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../build/resources/main/dependencies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../build/resources/main/dependencies.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../build/resources/main/jpos/res/jcl.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../build/resources/main/jpos/res/jcl.dtd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../build/resources/main/jpos/res/jcl.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../build/resources/main/jpos/res/jcl.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../build/resources/main/jpos/res/jcl_profile.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../build/resources/main/jpos/res/jcl_profile.dtd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../build/scripts/AmeliaPOS" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../build/scripts/AmeliaPOS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../build/scripts/AmeliaPOS.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../build/scripts/AmeliaPOS.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../build/tmp/shadowJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../modules/AmeliaAppLib" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../modules/AmeliaAppLib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../modules/AmeliaCommonLib" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../modules/AmeliaCommonLib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../modules/AmeliaLogLib" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../modules/AmeliaLogLib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../modules/AmeliaNetworkingLib" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../modules/AmeliaNetworkingLib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos/CommPort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos/PrinterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos/PrinterException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos/Step9Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos/client/Step9Frame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos/Step9Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos/client/Step9Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos/drawer/Step2Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos/client/Step2Frame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos/drawer/Step2Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos/client/Step2Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos/server/AmeliaPOSServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos/server/AmeliaPOSServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos/server/EntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pos/server/EntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BaseControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BaseControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BaseJposControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BaseJposControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/Belt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/Belt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BeltBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BeltBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BeltConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BeltConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BeltControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BeltControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BeltControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BeltControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BeltControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BeltControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BillAcceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BillAcceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BillAcceptorBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BillAcceptorBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BillAcceptorConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BillAcceptorConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BillAcceptorControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BillAcceptorControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BillAcceptorControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BillAcceptorControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BillAcceptorControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BillAcceptorControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BillAcceptorControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BillAcceptorControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BillDispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BillDispenser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BillDispenserBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BillDispenserBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BillDispenserConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BillDispenserConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BillDispenserControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BillDispenserControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BillDispenserControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BillDispenserControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BillDispenserControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BillDispenserControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BillDispenserControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BillDispenserControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/Biometrics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/Biometrics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BiometricsBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BiometricsBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BiometricsConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BiometricsConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BiometricsControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BiometricsControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BiometricsControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BiometricsControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BiometricsControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BiometricsControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BiometricsControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BiometricsControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BiometricsControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BiometricsControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BumpBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BumpBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BumpBarBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BumpBarBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BumpBarConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BumpBarConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BumpBarControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BumpBarControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BumpBarControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BumpBarControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BumpBarControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BumpBarControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BumpBarControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BumpBarControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BumpBarControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BumpBarControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BumpBarControl13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BumpBarControl13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BumpBarControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BumpBarControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BumpBarControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BumpBarControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BumpBarControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BumpBarControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BumpBarControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BumpBarControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BumpBarControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BumpBarControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/BumpBarControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/BumpBarControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CAT.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CAT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CATBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CATBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CATConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CATConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CATControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CATControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CATControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CATControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CATControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CATControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CATControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CATControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CATControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CATControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CATControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CATControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CATControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CATControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CATControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CATControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CATControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CATControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CATControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CATControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CATControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CATControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashChanger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashChangerBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashChangerBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashChangerConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashChangerConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashChangerControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashChangerControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashChangerControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashChangerControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashChangerControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashChangerControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashChangerControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashChangerControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashChangerControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashChangerControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashChangerControl12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashChangerControl12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashChangerControl13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashChangerControl13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashChangerControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashChangerControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashChangerControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashChangerControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashChangerControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashChangerControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashChangerControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashChangerControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashChangerControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashChangerControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashChangerControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashChangerControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashDrawerBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashDrawerBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashDrawerConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashDrawerConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashDrawerControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashDrawerControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashDrawerControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashDrawerControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashDrawerControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashDrawerControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashDrawerControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashDrawerControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashDrawerControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashDrawerControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashDrawerControl12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashDrawerControl12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashDrawerControl13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashDrawerControl13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashDrawerControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashDrawerControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashDrawerControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashDrawerControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashDrawerControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashDrawerControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashDrawerControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashDrawerControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashDrawerControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashDrawerControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CashDrawerControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CashDrawerControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CheckScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CheckScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CheckScannerBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CheckScannerBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CheckScannerConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CheckScannerConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CheckScannerControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CheckScannerControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CheckScannerControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CheckScannerControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CheckScannerControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CheckScannerControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CheckScannerControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CheckScannerControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CheckScannerControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CheckScannerControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CheckScannerControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CheckScannerControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CheckScannerControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CheckScannerControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CheckScannerControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CheckScannerControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinAcceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinAcceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinAcceptorBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinAcceptorBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinAcceptorConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinAcceptorConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinAcceptorControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinAcceptorControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinAcceptorControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinAcceptorControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinAcceptorControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinAcceptorControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinAcceptorControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinAcceptorControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinDispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinDispenser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinDispenserBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinDispenserBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinDispenserConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinDispenserConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/CoinDispenserControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ElectronicJournal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ElectronicJournal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ElectronicJournalBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ElectronicJournalBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ElectronicJournalConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ElectronicJournalConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ElectronicJournalControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ElectronicJournalControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ElectronicJournalControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ElectronicJournalControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ElectronicJournalControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ElectronicJournalControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ElectronicJournalControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ElectronicJournalControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ElectronicJournalControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ElectronicJournalControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ElectronicValueRW.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ElectronicValueRW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ElectronicValueRWBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ElectronicValueRWBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ElectronicValueRWConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ElectronicValueRWConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ElectronicValueRWControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ElectronicValueRWControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ElectronicValueRWControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ElectronicValueRWControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ElectronicValueRWControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ElectronicValueRWControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/FiscalPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/FiscalPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/FiscalPrinterBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/FiscalPrinterBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/FiscalPrinterConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/FiscalPrinterConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/FiscalPrinterControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/Gate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/GateBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/GateBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/GateConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/GateConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/GateControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/GateControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/GateControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/GateControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/GateControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/GateControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/HardTotals.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/HardTotals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/HardTotalsBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/HardTotalsBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/HardTotalsConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/HardTotalsConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/HardTotalsControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/HardTotalsControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/HardTotalsControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/HardTotalsControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/HardTotalsControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/HardTotalsControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/HardTotalsControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/HardTotalsControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/HardTotalsControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/HardTotalsControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/HardTotalsControl12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/HardTotalsControl12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/HardTotalsControl13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/HardTotalsControl13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/HardTotalsControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/HardTotalsControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/HardTotalsControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/HardTotalsControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/HardTotalsControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/HardTotalsControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/HardTotalsControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/HardTotalsControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/HardTotalsControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/HardTotalsControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/HardTotalsControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/HardTotalsControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ImageScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ImageScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ImageScannerBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ImageScannerBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ImageScannerConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ImageScannerConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ImageScannerControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ImageScannerControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ImageScannerControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ImageScannerControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ImageScannerControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ImageScannerControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ImageScannerControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ImageScannerControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ItemDispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ItemDispenser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ItemDispenserBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ItemDispenserBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ItemDispenserConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ItemDispenserConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ItemDispenserControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ItemDispenserControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ItemDispenserControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ItemDispenserControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ItemDispenserControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ItemDispenserControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/JposConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/JposConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/JposException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/JposException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/JposStatisticsConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/JposStatisticsConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/Keylock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/Keylock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/KeylockBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/KeylockBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/KeylockConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/KeylockConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/KeylockControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/KeylockControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/KeylockControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/KeylockControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/KeylockControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/KeylockControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/KeylockControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/KeylockControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/KeylockControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/KeylockControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/KeylockControl12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/KeylockControl12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/KeylockControl13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/KeylockControl13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/KeylockControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/KeylockControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/KeylockControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/KeylockControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/KeylockControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/KeylockControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/KeylockControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/KeylockControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/KeylockControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/KeylockControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/KeylockControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/KeylockControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/Lights.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/Lights.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LightsBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LightsBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LightsConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LightsConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LightsControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LightsControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LightsControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LightsControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LightsControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LightsControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LineDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LineDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LineDisplayBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LineDisplayBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LineDisplayConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LineDisplayConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LineDisplayControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LineDisplayControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LineDisplayControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LineDisplayControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LineDisplayControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LineDisplayControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LineDisplayControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LineDisplayControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LineDisplayControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LineDisplayControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LineDisplayControl12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LineDisplayControl12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LineDisplayControl13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LineDisplayControl13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LineDisplayControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LineDisplayControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LineDisplayControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LineDisplayControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LineDisplayControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LineDisplayControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LineDisplayControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LineDisplayControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LineDisplayControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LineDisplayControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/LineDisplayControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/LineDisplayControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MICR.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MICR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MICRBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MICRBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MICRConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MICRConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MICRControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MICRControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MICRControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MICRControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MICRControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MICRControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MICRControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MICRControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MICRControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MICRControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MICRControl12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MICRControl12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MICRControl13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MICRControl13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MICRControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MICRControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MICRControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MICRControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MICRControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MICRControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MICRControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MICRControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MICRControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MICRControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MICRControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MICRControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MSR.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MSR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MSRBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MSRBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MSRConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MSRConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MSRControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MSRControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MSRControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MSRControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MSRControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MSRControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MSRControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MSRControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MSRControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MSRControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MSRControl12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MSRControl12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MSRControl13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MSRControl13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MSRControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MSRControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MSRControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MSRControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MSRControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MSRControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MSRControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MSRControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MSRControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MSRControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MSRControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MSRControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MotionSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MotionSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MotionSensorBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MotionSensorBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MotionSensorConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MotionSensorConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MotionSensorControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MotionSensorControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MotionSensorControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MotionSensorControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MotionSensorControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MotionSensorControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MotionSensorControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MotionSensorControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MotionSensorControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MotionSensorControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MotionSensorControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MotionSensorControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MotionSensorControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MotionSensorControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/MotionSensorControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/MotionSensorControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PINPad.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PINPad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PINPadBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PINPadBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PINPadConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PINPadConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PINPadControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PINPadControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PINPadControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PINPadControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PINPadControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PINPadControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PINPadControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PINPadControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PINPadControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PINPadControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PINPadControl13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PINPadControl13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PINPadControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PINPadControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PINPadControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PINPadControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PINPadControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PINPadControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PINPadControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PINPadControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PINPadControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PINPadControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PINPadControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PINPadControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSKeyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSKeyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSKeyboardBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSKeyboardBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSKeyboardConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSKeyboardConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSKeyboardControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPowerBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPowerBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPowerConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPowerConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPowerControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPowerControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPowerControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPowerControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPowerControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPowerControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPowerControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPowerControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPowerControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPowerControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPowerControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPowerControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPowerControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPowerControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPowerControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPowerControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPowerControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPowerControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPowerControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPowerControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPrinterBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPrinterBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPrinterConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPrinterConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPrinterControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPrinterControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPrinterControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPrinterControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPrinterControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPrinterControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPrinterControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPrinterControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPrinterControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPrinterControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPrinterControl12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPrinterControl12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPrinterControl13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPrinterControl13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPrinterControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPrinterControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPrinterControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPrinterControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPrinterControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPrinterControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPrinterControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPrinterControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPrinterControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPrinterControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/POSPrinterControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/POSPrinterControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PointCardRW.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PointCardRW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PointCardRWBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PointCardRWBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PointCardRWConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PointCardRWConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PointCardRWControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PointCardRWControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PointCardRWControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PointCardRWControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PointCardRWControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PointCardRWControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PointCardRWControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PointCardRWControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PointCardRWControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PointCardRWControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PointCardRWControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PointCardRWControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PointCardRWControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PointCardRWControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PointCardRWControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PointCardRWControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PointCardRWControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PointCardRWControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/PointCardRWControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/PointCardRWControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RFIDScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RFIDScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RFIDScannerBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RFIDScannerBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RFIDScannerConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RFIDScannerConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RFIDScannerControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RFIDScannerControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RFIDScannerControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RFIDScannerControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RFIDScannerControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RFIDScannerControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/RemoteOrderDisplayControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/Scale.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/Scale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScaleBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScaleBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScaleConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScaleConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScaleControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScaleControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScaleControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScaleControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScaleControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScaleControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScaleControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScaleControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScaleControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScaleControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScaleControl12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScaleControl12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScaleControl13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScaleControl13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScaleControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScaleControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScaleControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScaleControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScaleControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScaleControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScaleControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScaleControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScaleControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScaleControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScaleControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScaleControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/Scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScannerBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScannerBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScannerConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScannerConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScannerControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScannerControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScannerControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScannerControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScannerControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScannerControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScannerControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScannerControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScannerControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScannerControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScannerControl12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScannerControl12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScannerControl13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScannerControl13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScannerControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScannerControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScannerControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScannerControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScannerControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScannerControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScannerControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScannerControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScannerControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScannerControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ScannerControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ScannerControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SignatureCapture.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SignatureCapture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SignatureCaptureBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SignatureCaptureBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SignatureCaptureConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SignatureCaptureConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SignatureCaptureControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SmartCardRW.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SmartCardRW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SmartCardRWBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SmartCardRWBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SmartCardRWConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SmartCardRWConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SmartCardRWControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SmartCardRWControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SmartCardRWControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SmartCardRWControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SmartCardRWControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SmartCardRWControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SmartCardRWControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SmartCardRWControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SmartCardRWControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SmartCardRWControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SmartCardRWControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SmartCardRWControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/SmartCardRWControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/SmartCardRWControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ToneIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ToneIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ToneIndicatorBeanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ToneIndicatorBeanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ToneIndicatorConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ToneIndicatorConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/ToneIndicatorControl19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/CompositeRegPopulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/CompositeRegPopulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/DefaultCompositeRegPopulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/DefaultCompositeRegPopulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/JposConfigException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/JposConfigException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/JposEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/JposEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/JposEntryConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/JposEntryConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/JposEntryRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/JposEntryRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/JposEntryRegistryEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/JposEntryRegistryEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/JposEntryRegistryListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/JposEntryRegistryListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/JposRegPopulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/JposRegPopulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/RS232Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/RS232Const.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/Version.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/Version.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/simple/AbstractRegPopulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/simple/AbstractRegPopulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/simple/SimpleEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/simple/SimpleEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/simple/SimpleEntryRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/simple/SimpleEntryRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/simple/SimpleRegPopulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/simple/SimpleRegPopulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/simple/xml/AbstractXercesRegPopulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/simple/xml/AbstractXercesRegPopulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/simple/xml/SimpleXmlRegPopulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/simple/xml/SimpleXmlRegPopulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/simple/xml/Xerces2RegPopulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/simple/xml/Xerces2RegPopulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/simple/xml/XercesRegPopulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/simple/xml/XercesRegPopulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/config/simple/xml/XmlRegPopulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/config/simple/xml/XmlRegPopulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/events/DataEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/events/DataEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/events/DataListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/events/DataListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/events/DirectIOEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/events/DirectIOEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/events/DirectIOListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/events/DirectIOListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/events/ErrorEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/events/ErrorEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/events/ErrorListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/events/ErrorListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/events/JposEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/events/JposEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/events/OutputCompleteEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/events/OutputCompleteEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/events/OutputCompleteListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/events/OutputCompleteListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/events/StatusUpdateEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/events/StatusUpdateEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/events/StatusUpdateListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/events/StatusUpdateListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/events/TransitionEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/events/TransitionEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/events/TransitionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/events/TransitionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/loader/JposLoaderException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/loader/JposLoaderException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/loader/JposServiceConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/loader/JposServiceConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/loader/JposServiceInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/loader/JposServiceInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/loader/JposServiceInstanceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/loader/JposServiceInstanceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/loader/JposServiceLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/loader/JposServiceLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/loader/JposServiceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/loader/JposServiceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/loader/Version.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/loader/Version.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/loader/simple/SimpleServiceConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/loader/simple/SimpleServiceConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/loader/simple/SimpleServiceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/loader/simple/SimpleServiceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/AbstractPropType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/AbstractPropType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/BooleanPropType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/BooleanPropType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/CharacterPropType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/CharacterPropType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/DefaultDevCatInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/DefaultDevCatInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/DefaultDevCatInfoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/DefaultDevCatInfoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/DefaultDevCatV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/DefaultDevCatV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/DefaultProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/DefaultProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/DefaultProfileRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/DefaultProfileRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/DefaultPropInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/DefaultPropInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/DefaultPropInfoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/DefaultPropInfoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/DefaultPropValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/DefaultPropValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/DefaultPropValueList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/DefaultPropValueList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/DevCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/DevCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/DevCatInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/DevCatInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/DevCatInfoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/DevCatInfoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/DevCatVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/DevCatVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/FloatPropType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/FloatPropType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/IntegerPropType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/IntegerPropType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/JposDevCats.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/JposDevCats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/ProfileConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/ProfileConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/ProfileException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/ProfileException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/ProfileFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/ProfileFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/ProfileRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/ProfileRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/PropInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/PropInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/PropInfoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/PropInfoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/PropInfoViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/PropInfoViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/PropType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/PropType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/PropValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/PropValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/PropValueList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/PropValueList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/StringPropType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/StringPropType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/profile/XercesProfileFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/profile/XercesProfileFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BeltService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BeltService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BeltService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BeltService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BeltService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BeltService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BillAcceptorService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BillAcceptorService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BillAcceptorService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BillAcceptorService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BillAcceptorService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BillAcceptorService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BillAcceptorService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BillAcceptorService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BillDispenserService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BillDispenserService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BillDispenserService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BillDispenserService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BillDispenserService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BillDispenserService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BillDispenserService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BillDispenserService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BiometricsService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BiometricsService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BiometricsService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BiometricsService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BiometricsService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BiometricsService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BiometricsService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BiometricsService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BiometricsService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BiometricsService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BumpBarService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BumpBarService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BumpBarService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BumpBarService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BumpBarService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BumpBarService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BumpBarService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BumpBarService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BumpBarService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BumpBarService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BumpBarService13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BumpBarService13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BumpBarService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BumpBarService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BumpBarService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BumpBarService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BumpBarService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BumpBarService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BumpBarService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BumpBarService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BumpBarService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BumpBarService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/BumpBarService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/BumpBarService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CATService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CATService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CATService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CATService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CATService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CATService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CATService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CATService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CATService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CATService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CATService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CATService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CATService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CATService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CATService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CATService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CATService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CATService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CATService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CATService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CATService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CATService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashChangerService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashChangerService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashChangerService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashChangerService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashChangerService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashChangerService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashChangerService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashChangerService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashChangerService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashChangerService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashChangerService12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashChangerService12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashChangerService13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashChangerService13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashChangerService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashChangerService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashChangerService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashChangerService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashChangerService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashChangerService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashChangerService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashChangerService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashChangerService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashChangerService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashChangerService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashChangerService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CashDrawerService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CheckScannerService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CheckScannerService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CheckScannerService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CheckScannerService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CheckScannerService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CheckScannerService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CheckScannerService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CheckScannerService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CheckScannerService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CheckScannerService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CheckScannerService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CheckScannerService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CheckScannerService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CheckScannerService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CheckScannerService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CheckScannerService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CoinAcceptorService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CoinAcceptorService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CoinAcceptorService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CoinAcceptorService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CoinAcceptorService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CoinAcceptorService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CoinAcceptorService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CoinAcceptorService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/CoinDispenserService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ElectronicJournalService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ElectronicJournalService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ElectronicJournalService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ElectronicJournalService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ElectronicJournalService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ElectronicJournalService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ElectronicJournalService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ElectronicJournalService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ElectronicJournalService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ElectronicJournalService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ElectronicValueRWService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ElectronicValueRWService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ElectronicValueRWService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ElectronicValueRWService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ElectronicValueRWService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ElectronicValueRWService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/EventCallbacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/EventCallbacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/FiscalPrinterService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/GateService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/GateService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/GateService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/GateService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/GateService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/GateService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/HardTotalsService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ImageScannerService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ImageScannerService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ImageScannerService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ImageScannerService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ImageScannerService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ImageScannerService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ImageScannerService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ImageScannerService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ItemDispenserService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ItemDispenserService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ItemDispenserService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ItemDispenserService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ItemDispenserService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ItemDispenserService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/KeylockService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/KeylockService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/KeylockService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/KeylockService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/KeylockService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/KeylockService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/KeylockService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/KeylockService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/KeylockService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/KeylockService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/KeylockService12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/KeylockService12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/KeylockService13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/KeylockService13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/KeylockService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/KeylockService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/KeylockService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/KeylockService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/KeylockService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/KeylockService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/KeylockService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/KeylockService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/KeylockService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/KeylockService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/KeylockService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/KeylockService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/LightsService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/LightsService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/LightsService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/LightsService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/LightsService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/LightsService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/LineDisplayService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MICRService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MICRService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MICRService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MICRService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MICRService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MICRService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MICRService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MICRService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MICRService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MICRService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MICRService12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MICRService12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MICRService13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MICRService13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MICRService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MICRService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MICRService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MICRService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MICRService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MICRService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MICRService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MICRService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MICRService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MICRService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MICRService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MICRService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MSRService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MSRService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MSRService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MSRService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MSRService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MSRService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MSRService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MSRService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MSRService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MSRService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MSRService12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MSRService12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MSRService13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MSRService13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MSRService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MSRService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MSRService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MSRService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MSRService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MSRService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MSRService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MSRService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MSRService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MSRService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MSRService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MSRService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MotionSensorService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MotionSensorService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MotionSensorService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MotionSensorService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MotionSensorService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MotionSensorService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MotionSensorService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MotionSensorService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MotionSensorService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MotionSensorService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MotionSensorService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MotionSensorService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MotionSensorService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MotionSensorService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/MotionSensorService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/MotionSensorService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PINPadService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PINPadService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PINPadService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PINPadService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PINPadService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PINPadService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PINPadService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PINPadService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PINPadService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PINPadService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PINPadService13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PINPadService13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PINPadService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PINPadService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PINPadService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PINPadService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PINPadService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PINPadService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PINPadService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PINPadService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PINPadService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PINPadService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PINPadService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PINPadService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSKeyboardService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPowerService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPowerService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPowerService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPowerService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPowerService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPowerService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPowerService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPowerService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPowerService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPowerService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPowerService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPowerService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPowerService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPowerService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPowerService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPowerService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPowerService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPowerService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPowerService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPowerService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/POSPrinterService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/PointCardRWService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/RFIDScannerService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/RFIDScannerService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/RFIDScannerService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/RFIDScannerService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/RFIDScannerService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/RFIDScannerService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/RemoteOrderDisplayService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScaleService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScaleService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScaleService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScaleService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScaleService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScaleService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScaleService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScaleService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScaleService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScaleService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScaleService12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScaleService12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScaleService13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScaleService13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScaleService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScaleService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScaleService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScaleService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScaleService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScaleService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScaleService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScaleService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScaleService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScaleService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScaleService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScaleService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScannerService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScannerService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScannerService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScannerService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScannerService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScannerService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScannerService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScannerService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScannerService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScannerService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScannerService12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScannerService12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScannerService13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScannerService13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScannerService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScannerService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScannerService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScannerService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScannerService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScannerService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScannerService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScannerService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScannerService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScannerService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ScannerService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ScannerService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SignatureCaptureService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SmartCardRWService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SmartCardRWService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SmartCardRWService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SmartCardRWService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SmartCardRWService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SmartCardRWService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SmartCardRWService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SmartCardRWService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SmartCardRWService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SmartCardRWService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SmartCardRWService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SmartCardRWService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/SmartCardRWService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/SmartCardRWService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService111.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService112.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService113.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/services/ToneIndicatorService19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/util/Comparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/util/Comparable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/util/DefaultComparableElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/util/DefaultComparableElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/util/DefaultProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/util/DefaultProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/util/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/util/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/util/JposEntryUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/util/JposEntryUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/util/JposProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/util/JposProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/util/JposPropertiesConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/util/JposPropertiesConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/util/JposPropertiesViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/util/JposPropertiesViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/util/PopupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/util/PopupHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/util/PopupListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/util/PopupListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/util/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/util/Sorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/util/Tracer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/util/Tracer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/util/TracerOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/util/TracerOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/util/XmlHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/util/XmlHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/util/tracing/Tracer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/util/tracing/Tracer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/util/tracing/TracerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/util/tracing/TracerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/util/tracing/TracerOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/util/tracing/TracerOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jpos/util/tracing/Tracing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jpos/util/tracing/Tracing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../resources/dependencies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../resources/dependencies.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../resources/jpos/res/jcl.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../resources/jpos/res/jcl.dtd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../resources/jpos/res/jcl.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../resources/jpos/res/jcl.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../resources/jpos/res/jcl_profile.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../resources/jpos/res/jcl_profile.dtd" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="253" />
+    <option name="y" value="213" />
+    <option name="width" value="1440" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4179ff7-8c38-4afa-98b7-9c9cc96fec96" name="Default Changelist" comment="" />
+      <created>1568697412616</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568697412616</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="253" y="213" width="1440" height="1040" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33547926" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CheckStyle" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

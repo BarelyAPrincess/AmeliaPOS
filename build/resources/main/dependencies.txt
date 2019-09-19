@@ -1,0 +1,14 @@
+com.google.code.gson:gson:2.8.1
+com.google.guava:guava:23.0
+xmlpull:xmlpull:1.1.3.4d_b4_min
+org.yaml:snakeyaml:1.13
+io.netty:netty-all:4.0.33.Final
+org.bouncycastle:bcpkix-jdk15on:1.53
+com.rethinkdb:rethinkdb-driver:2.3.3
+mysql:mysql-connector-java:5.1.35
+org.xerial:sqlite-jdbc:3.8.11.2
+com.h2database:h2:1.4.187
+io.netty:netty-buffer:4.1.24.Final
+org.slf4j:slf4j-simple:1.7.25
+io.netty:netty-all:4.1.39.Final
+org.bouncycastle:bcprov-jdk15on:1.53

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+EPSON_JPOS_INSTALL=/opt/EpsonJavaPOS
+PATH=$JAVA_HOME/bin:$PATH
+LD_LIBRARY_PATH=/opt/EpsonJavaPOS/bin
+export JAVA_HOME EPSON_JPOS_INSTALL PATH LD_LIBRARY_PATH

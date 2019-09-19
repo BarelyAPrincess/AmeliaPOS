@@ -1,0 +1,54 @@
+[0;39m[97;22m[[95;1mmain      [97;22m] 09-11 01:54:57.160 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m[JposServiceLoader]Custom manager is defined: className= jpos.loader.simple.SimpleServiceManager
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-11 01:54:57.276 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m[XercesRegPopulator]load(): isPopulatorFileDefined=true
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-11 01:54:57.279 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m[AbstractRegPopulator]getPopulatorFileIS(): populatorFileName=/opt/EpsonJavaPOS/jpos.xml
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-11 01:54:57.362 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m[JposServiceLoader]manager.getEntryRegistry().load() OK
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-11 01:54:57.363 [[91;1mSEVERE[97;22m][97;1m [97;22m[SysErr][97;1m [91;1m[JposServiceLoader]findService: POSPrinter
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-11 01:55:07.460 [[97;1mINFO[97;22m][97;1m [97;22m[Foundation][97;1m [97;1m[96;1mApplication has entered runlevel [96;1m"STARTUP"[96;1m. onRunlevelChange() took 10306ms!
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-11 01:55:07.462 [[97;22mFINE[97;22m][97;1m [97;22m[Kernel][97;1m [97;22mjoinLoop()
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-11 01:55:07.470 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1mTask entry created!
+java.lang.Thread.getStackTrace(Thread.java:1559)
+io.amelia.support.Exceptions.getStackTrace(Exceptions.java:34)
+io.amelia.looper.LooperTaskTrait.postTask(LooperTaskTrait.java:43)
+io.amelia.foundation.Foundation.setRunlevelLater(Foundation.java:964)
+io.amelia.foundation.Foundation.setRunlevelLater(Foundation.java:962)
+io.amelia.foundation.Foundation.setRunlevelLater(Foundation.java:956)
+io.amelia.foundation.Foundation.onRunlevelChange(Foundation.java:705)
+io.amelia.foundation.Foundation.setRunlevel0(Foundation.java:929)
+io.amelia.foundation.Foundation.setRunlevel(Foundation.java:894)
+io.amelia.foundation.Foundation.setRunlevel(Foundation.java:880)
+io.amelia.foundation.FoundationLooper.signalInfallibleStartup(FoundationLooper.java:75)
+io.amelia.looper.AbstractLooper$LooperControl.signalInfallibleStartup(AbstractLooper.java:493)
+io.amelia.looper.queue.DefaultQueue.lambda$new$0(DefaultQueue.java:48)
+io.amelia.looper.LooperTaskTrait$TaskEntry.run0(LooperTaskTrait.java:357)
+io.amelia.looper.queue.EntryRunnable.lambda$run$0(EntryRunnable.java:38)
+io.amelia.looper.queue.EntryRunnable.run(EntryRunnable.java:52)
+io.amelia.looper.MainLooper.tick(MainLooper.java:58)
+io.amelia.looper.AbstractLooper.joinLoop(AbstractLooper.java:252)
+io.amelia.foundation.Foundation.start(Foundation.java:1013)
+io.amelia.pos.client.EntryPoint.main(EntryPoint.java:55)
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-11 01:55:07.472 [[97;1mINFO[97;22m][97;1m [97;22m[Foundation][97;1m [97;1m[96;1mApplication has entered runlevel [96;1m"MAINLOOP"[96;1m. onRunlevelChange() took 6ms!
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-11 01:55:07.514 [[97;1mINFO[97;22m][97;1m [97;22m[Kernel][97;1m [97;1mTask entry created!
+java.lang.Thread.getStackTrace(Thread.java:1559)
+io.amelia.support.Exceptions.getStackTrace(Exceptions.java:34)
+io.amelia.looper.LooperTaskTrait.postTask(LooperTaskTrait.java:43)
+io.amelia.foundation.Foundation.setRunlevelLater(Foundation.java:964)
+io.amelia.foundation.Foundation.setRunlevelLater(Foundation.java:962)
+io.amelia.foundation.Foundation.setRunlevelLater(Foundation.java:956)
+io.amelia.foundation.Foundation.onRunlevelChange(Foundation.java:711)
+io.amelia.foundation.Foundation.setRunlevel0(Foundation.java:929)
+io.amelia.foundation.Foundation.lambda$setRunlevelLater$21(Foundation.java:964)
+io.amelia.looper.LooperTaskTrait$TaskEntry.run0(LooperTaskTrait.java:357)
+io.amelia.looper.queue.EntryRunnable.lambda$run$0(EntryRunnable.java:38)
+io.amelia.looper.queue.EntryRunnable.run(EntryRunnable.java:52)
+io.amelia.looper.MainLooper.tick(MainLooper.java:58)
+io.amelia.looper.AbstractLooper.joinLoop(AbstractLooper.java:252)
+io.amelia.foundation.Foundation.start(Foundation.java:1013)
+io.amelia.pos.client.EntryPoint.main(EntryPoint.java:55)
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-11 01:55:07.517 [[97;1mINFO[97;22m][97;1m [97;22m[Foundation][97;1m [97;1m[96;1mApplication has entered runlevel [96;1m"NETWORKING"[96;1m. onRunlevelChange() took 3ms!
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-11 01:55:07.617 [[97;1mINFO[97;22m][97;1m [97;22m[Foundation][97;1m [97;1m[93;22mApplication is entering runlevel [96;1m"SHUTDOWN"[93;22m, for reason: We're Done Here!.
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-11 01:55:07.619 [[97;1mINFO[97;22m][97;1m [97;22m[Foundation][97;1m [97;1mShutting Down Task Manager...
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-11 01:55:07.620 [[97;1mINFO[97;22m][97;1m [97;22m[Foundation][97;1m [97;1mSaving Configuration...
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-11 01:55:07.622 [[97;1mINFO[97;22m][97;1m [97;22m[Foundation][97;1m [97;1mClearing Excess Cache...
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-11 01:55:07.979 [[97;1mINFO[97;22m][97;1m [97;22m[Foundation][97;1m [97;1m[96;1mApplication has entered runlevel [96;1m"SHUTDOWN"[96;1m. onRunlevelChange() took 364ms!
+[0;39m[0;39m[97;22m[[95;1mmain      [97;22m] 09-11 01:55:07.981 [[97;1mINFO[97;22m][97;1m [97;22m[Foundation][97;1m [97;1m[96;1mApplication has entered runlevel [96;1m"STARTED"[96;1m. onRunlevelChange() took -1ms!
+[0;39m

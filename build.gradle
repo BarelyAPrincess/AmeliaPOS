@@ -132,7 +132,14 @@ dependencies {
 
 	compile group: 'net.sf.jopt-simple', name: 'jopt-simple', version: '4.7'
 
-	compile group: 'io.netty', name: 'netty-all', version: '4.1.39.Final'
+	// compile group: 'io.netty', name: 'netty-all', version: '4.1.39.Final'
+
+	required group: 'org.slf4j', name: 'slf4j-api', version: '1.7.28'
+	required group: 'com.rabbitmq', name: 'amqp-client', version: '5.7.3'
+
+	required group: 'org.jline', name: 'jline', version: '3.12.1'
+
+	required group: 'org.fusesource.jansi', name: 'jansi', version: '1.11'
 
 	// required fileTree( include: ['*.jar'], dir: '/opt/EpsonJavaPOS/lib' )
 	required fileTree( include: ['*.jar'], dir: 'libs' )
@@ -143,7 +150,9 @@ targetCompatibility = 1.8
 
 Properties buildProperties = getBuildProperties();
 
-mainClassName = "io.amelia.pos.drawer.Step2Main"
+mainClassName = "io.amelia.pos.server.EntryPoint"
+// mainClassName = "io.amelia.pos.client.Step2Main"
+// mainClassName = "io.amelia.pos.client.Step9Main"
 def rawVersion = buildProperties.getProperty( "versionMajor" ) + "." + buildProperties.getProperty( "versionMinor" ) + "." + buildProperties.getProperty( "versionRevision" )
 def jenkins_build = System.getenv( "BUILD_NUMBER" )
 def travis_build = System.getenv( "TRAVIS_BUILD_NUMBER" )
